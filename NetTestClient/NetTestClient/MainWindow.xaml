@@ -1,0 +1,29 @@
+﻿<Window x:Class="NetTestClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="登录试题练习程序" Height="350" Width="525" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"  HorizontalAlignment="Center">
+            <Label Content="基于WCF的试题练习程序" Margin="0,50,0,0" FontSize="40" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1"  HorizontalAlignment="Center" >
+            <Label Content="用户名:"  Height="23" Width="50" Margin="10,10,0,0"/>
+            <TextBox x:Name="txtUser"  Margin="10,10,0,0" Height="23" Width="150"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="2"  HorizontalAlignment="Center">
+            <Label Content="密码:"  Height="23" Width="50" Margin="10,0,0,0"/>
+            <PasswordBox x:Name="txtPass" Margin="10,0,0,0" Height="23" Width="150"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3"  HorizontalAlignment="Center">
+            <Button x:Name="btLogin" Content="注册登录"
+                 HorizontalAlignment="Left" VerticalAlignment="Top"  Click="btLogin_Click"
+                 Margin="10,10,0,0" Height="23" Width="74" />
+        </StackPanel>
+    </Grid>
+</Window>

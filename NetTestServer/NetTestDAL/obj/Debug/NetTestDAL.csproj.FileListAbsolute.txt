@@ -1,0 +1,13 @@
+D:\Visual Studio 2012\NetTest\NetTestDAL\bin\Debug\NetTestDAL.dll
+D:\Visual Studio 2012\NetTest\NetTestDAL\bin\Debug\NetTestDAL.pdb
+D:\Visual Studio 2012\NetTest\NetTestDAL\bin\Debug\NetTestModel.dll
+D:\Visual Studio 2012\NetTest\NetTestDAL\bin\Debug\NetTestModel.pdb
+D:\Visual Studio 2012\NetTest\NetTestDAL\obj\Debug\NetTestDAL.dll
+D:\Visual Studio 2012\NetTest\NetTestDAL\obj\Debug\NetTestDAL.pdb
+D:\Visual Studio 2012\NetTest\NetTestDAL\obj\Debug\NetTestDAL.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestDAL.dll
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestDAL.pdb
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.dll
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.pdb
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.dll
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.pdb

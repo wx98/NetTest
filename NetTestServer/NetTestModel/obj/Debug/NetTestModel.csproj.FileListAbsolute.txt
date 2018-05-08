@@ -1,0 +1,8 @@
+D:\Visual Studio 2012\NetTest\NetTestModel\bin\Debug\NetTestModel.dll
+D:\Visual Studio 2012\NetTest\NetTestModel\bin\Debug\NetTestModel.pdb
+D:\Visual Studio 2012\NetTest\NetTestModel\obj\Debug\NetTestModel.dll
+D:\Visual Studio 2012\NetTest\NetTestModel\obj\Debug\NetTestModel.pdb
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestModel\bin\Debug\NetTestModel.dll
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestModel\bin\Debug\NetTestModel.pdb
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.dll
+D:\Visual Studio 2012\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.pdb
