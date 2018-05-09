@@ -23,5 +23,29 @@ namespace NetTestClient
         {
             InitializeComponent();
         }
+
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+            Option a = new Option();
+            a.ShowDialog();
+        }
+
+        private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+            Option a = new Option();
+            a.ShowDialog();
+        }
+
+        private void Update_Click(object sender, RoutedEventArgs e)
+        {
+            Option a = new Option();
+            a.ShowDialog();
+        }
+
+        private void Exercise_Click(object sender, RoutedEventArgs e)
+        {
+            Option a = new Option();
+            a.ShowDialog();
+        }
     }
 }
