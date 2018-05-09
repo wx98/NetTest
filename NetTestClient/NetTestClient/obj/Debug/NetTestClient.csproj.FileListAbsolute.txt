@@ -13,3 +13,6 @@ D:\Visual Studio 2012\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClien
 D:\Visual Studio 2012\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient.pdb
 D:\Visual Studio 2012\NetTest\NetTestClient\NetTestClient\obj\Debug\Option.baml
 D:\Visual Studio 2012\NetTest\NetTestClient\NetTestClient\obj\Debug\Option.g.cs
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\bin\Debug\NetTestClient.exe.config
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient.exe
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient.pdb

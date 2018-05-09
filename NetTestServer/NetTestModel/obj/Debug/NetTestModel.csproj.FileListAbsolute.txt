@@ -6,3 +6,8 @@ D:\Visual Studio 2012\NetTest\NetTestServer\NetTestModel\bin\Debug\NetTestModel.
 D:\Visual Studio 2012\NetTest\NetTestServer\NetTestModel\bin\Debug\NetTestModel.pdb
 D:\Visual Studio 2012\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.dll
 D:\Visual Studio 2012\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\bin\Debug\NetTestModel.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\bin\Debug\NetTestModel.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.pdb
