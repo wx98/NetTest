@@ -74,6 +74,115 @@ namespace NetTestClient.WCF {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TestClass", Namespace="http://schemas.datacontract.org/2004/07/NetTestModel")]
+    [System.SerializableAttribute()]
+    public partial class TestClass : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string tAnswerField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string tDateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string tTextField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string tTitleField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int ID {
+            get {
+                return this.IDField;
+            }
+            set {
+                if ((this.IDField.Equals(value) != true)) {
+                    this.IDField = value;
+                    this.RaisePropertyChanged("ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string tAnswer {
+            get {
+                return this.tAnswerField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.tAnswerField, value) != true)) {
+                    this.tAnswerField = value;
+                    this.RaisePropertyChanged("tAnswer");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string tDate {
+            get {
+                return this.tDateField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.tDateField, value) != true)) {
+                    this.tDateField = value;
+                    this.RaisePropertyChanged("tDate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string tText {
+            get {
+                return this.tTextField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.tTextField, value) != true)) {
+                    this.tTextField = value;
+                    this.RaisePropertyChanged("tText");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string tTitle {
+            get {
+                return this.tTitleField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.tTitleField, value) != true)) {
+                    this.tTitleField = value;
+                    this.RaisePropertyChanged("tTitle");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="WCF.INetTestService")]
     public interface INetTestService {
@@ -93,6 +202,14 @@ namespace NetTestClient.WCF {
         System.IAsyncResult Beginlogin(NetTestClient.WCF.UserClass user, System.AsyncCallback callback, object asyncState);
         
         string Endlogin(System.IAsyncResult result);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/INetTestService/addTest", ReplyAction="http://tempuri.org/INetTestService/addTestResponse")]
+        NetTestClient.WCF.TestClass addTest(NetTestClient.WCF.TestClass tset);
+        
+        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/INetTestService/addTest", ReplyAction="http://tempuri.org/INetTestService/addTestResponse")]
+        System.IAsyncResult BeginaddTest(NetTestClient.WCF.TestClass tset, System.AsyncCallback callback, object asyncState);
+        
+        NetTestClient.WCF.TestClass EndaddTest(System.IAsyncResult result);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -120,6 +237,25 @@ namespace NetTestClient.WCF {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class addTestCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public addTestCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public NetTestClient.WCF.TestClass Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((NetTestClient.WCF.TestClass)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public partial class NetTestServiceClient : System.ServiceModel.ClientBase<NetTestClient.WCF.INetTestService>, NetTestClient.WCF.INetTestService {
         
         private BeginOperationDelegate onBeginDoWorkDelegate;
@@ -133,6 +269,12 @@ namespace NetTestClient.WCF {
         private EndOperationDelegate onEndloginDelegate;
         
         private System.Threading.SendOrPostCallback onloginCompletedDelegate;
+        
+        private BeginOperationDelegate onBeginaddTestDelegate;
+        
+        private EndOperationDelegate onEndaddTestDelegate;
+        
+        private System.Threading.SendOrPostCallback onaddTestCompletedDelegate;
         
         public NetTestServiceClient() {
         }
@@ -156,6 +298,8 @@ namespace NetTestClient.WCF {
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> DoWorkCompleted;
         
         public event System.EventHandler<loginCompletedEventArgs> loginCompleted;
+        
+        public event System.EventHandler<addTestCompletedEventArgs> addTestCompleted;
         
         public void DoWork() {
             base.Channel.DoWork();
@@ -252,6 +396,56 @@ namespace NetTestClient.WCF {
             }
             base.InvokeAsync(this.onBeginloginDelegate, new object[] {
                         user}, this.onEndloginDelegate, this.onloginCompletedDelegate, userState);
+        }
+        
+        public NetTestClient.WCF.TestClass addTest(NetTestClient.WCF.TestClass tset) {
+            return base.Channel.addTest(tset);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        public System.IAsyncResult BeginaddTest(NetTestClient.WCF.TestClass tset, System.AsyncCallback callback, object asyncState) {
+            return base.Channel.BeginaddTest(tset, callback, asyncState);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        public NetTestClient.WCF.TestClass EndaddTest(System.IAsyncResult result) {
+            return base.Channel.EndaddTest(result);
+        }
+        
+        private System.IAsyncResult OnBeginaddTest(object[] inValues, System.AsyncCallback callback, object asyncState) {
+            NetTestClient.WCF.TestClass tset = ((NetTestClient.WCF.TestClass)(inValues[0]));
+            return this.BeginaddTest(tset, callback, asyncState);
+        }
+        
+        private object[] OnEndaddTest(System.IAsyncResult result) {
+            NetTestClient.WCF.TestClass retVal = this.EndaddTest(result);
+            return new object[] {
+                    retVal};
+        }
+        
+        private void OnaddTestCompleted(object state) {
+            if ((this.addTestCompleted != null)) {
+                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+                this.addTestCompleted(this, new addTestCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
+            }
+        }
+        
+        public void addTestAsync(NetTestClient.WCF.TestClass tset) {
+            this.addTestAsync(tset, null);
+        }
+        
+        public void addTestAsync(NetTestClient.WCF.TestClass tset, object userState) {
+            if ((this.onBeginaddTestDelegate == null)) {
+                this.onBeginaddTestDelegate = new BeginOperationDelegate(this.OnBeginaddTest);
+            }
+            if ((this.onEndaddTestDelegate == null)) {
+                this.onEndaddTestDelegate = new EndOperationDelegate(this.OnEndaddTest);
+            }
+            if ((this.onaddTestCompletedDelegate == null)) {
+                this.onaddTestCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnaddTestCompleted);
+            }
+            base.InvokeAsync(this.onBeginaddTestDelegate, new object[] {
+                        tset}, this.onEndaddTestDelegate, this.onaddTestCompletedDelegate, userState);
         }
     }
 }

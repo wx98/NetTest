@@ -7,4 +7,14 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="UserClass" nillable="true" type="tns:UserClass" />
+  <xs:complexType name="TestClass">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="tAnswer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TestClass" nillable="true" type="tns:TestClass" />
 </xs:schema>

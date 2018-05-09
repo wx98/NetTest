@@ -20,5 +20,19 @@ namespace NetTestSever
             UserManager manager = new UserManager();
             return manager.login(user);
         }
+        UserClass getUser()
+        {
+           
+            String uName = OperationContext.Current.IncomingMessageHeaders.GetHeader<String>("uName", "MySpace");
+            String uPass = OperationContext.Current.IncomingMessageHeaders.GetHeader<String>("uPass", "MySpace");
+            return new UserClass { uName = uName, uPass = uPass };
+        }
+        public TestClass addTest(TestClass test) 
+        {
+            TestManager manager = new TestManager();
+            manager.addTest(getUser(), ref test);
+            return test;
+        }
+        
     }
 }

@@ -28,3 +28,5 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient.g.resources
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient.Properties.Resources.resources
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient.csproj.GenerateResource.Cache
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\AddQuestionWindow.baml
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\AddQuestionWindow.g.cs

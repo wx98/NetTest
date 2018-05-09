@@ -22,6 +22,6 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\De
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.csprojResolveAssemblyReference.cache
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.csprojResolveAssemblyReference.cache

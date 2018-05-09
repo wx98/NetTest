@@ -1,20 +1,20 @@
 ﻿<Window x:Class="NetTestClient.Option"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Option" Height="350" Width="525">
+        Title="Option" Height="350" Width="525" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <Button x:Name="btAdd" Content="试题记录增加"
-                 HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Add_Click"
+                 HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Add_Question_Click"
                  Margin="10,10,0,0" Height="23" Width="100" />
             <Button x:Name="btDelete" Content="试题记录删除"
-                 HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Delete_Click"
+                 HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Delete_Question_Click"
                  Margin="10,10,0,0" Height="23" Width="100" />
             <Button x:Name="btUpdate" Content="试题记录更新"
-                 HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Update_Click"
+                 HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Update_Question_Click"
                  Margin="10,10,0,0" Height="23" Width="100" />
             <Button x:Name="btExercise" Content="用户试题练习"
-                 HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Exercise_Click"
+                 HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Exercise_Question_Click"
                  Margin="10,10,0,0" Height="23" Width="100" />
         </StackPanel>
     </Grid>

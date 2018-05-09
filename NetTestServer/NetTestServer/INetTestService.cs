@@ -17,5 +17,7 @@ namespace NetTestSever
         void DoWork();
         [OperationContract]
         string login(UserClass user);
+        [OperationContract]
+        TestClass addTest(TestClass tset);
     }
 }

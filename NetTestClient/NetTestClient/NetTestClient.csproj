@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddQuestionWindow.xaml.cs">
+      <DependentUpon>AddQuestionWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Option.xaml.cs">
       <DependentUpon>Option.xaml</DependentUpon>
     </Compile>
@@ -63,6 +66,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Page Include="AddQuestionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -111,6 +118,9 @@
     </None>
     <None Include="Service References\WCF\item2.xsd">
       <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WCF\NetTestClient.WCF.TestClass.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\WCF\NetTestService.wsdl" />
   </ItemGroup>

@@ -1,0 +1,7 @@
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Release\NetTestDAL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Release\NetTestDAL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Release\NetTestModel.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Release\NetTestModel.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.pdb

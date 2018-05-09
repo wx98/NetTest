@@ -25,4 +25,18 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="addTest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/NetTestModel" minOccurs="0" name="tset" nillable="true" type="q2:TestClass" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addTestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/NetTestModel" minOccurs="0" name="addTestResult" nillable="true" type="q3:TestClass" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

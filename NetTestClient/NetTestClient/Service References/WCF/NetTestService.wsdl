@@ -19,6 +19,12 @@
   <wsdl:message name="INetTestService_login_OutputMessage">
     <wsdl:part name="parameters" element="tns:loginResponse" />
   </wsdl:message>
+  <wsdl:message name="INetTestService_addTest_InputMessage">
+    <wsdl:part name="parameters" element="tns:addTest" />
+  </wsdl:message>
+  <wsdl:message name="INetTestService_addTest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addTestResponse" />
+  </wsdl:message>
   <wsdl:portType name="INetTestService">
     <wsdl:operation name="DoWork">
       <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/DoWork" message="tns:INetTestService_DoWork_InputMessage" />
@@ -27,6 +33,10 @@
     <wsdl:operation name="login">
       <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/login" message="tns:INetTestService_login_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/INetTestService/loginResponse" message="tns:INetTestService_login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addTest">
+      <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/addTest" message="tns:INetTestService_addTest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INetTestService/addTestResponse" message="tns:INetTestService_addTest_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_INetTestService" type="tns:INetTestService">
@@ -42,6 +52,15 @@
     </wsdl:operation>
     <wsdl:operation name="login">
       <soap:operation soapAction="http://tempuri.org/INetTestService/login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addTest">
+      <soap:operation soapAction="http://tempuri.org/INetTestService/addTest" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
