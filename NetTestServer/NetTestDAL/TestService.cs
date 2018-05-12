@@ -19,7 +19,7 @@ namespace NetTestDAL
                 pName.Value = user.uName;
                 SqlParameter pPass = new SqlParameter("@uPass", SqlDbType.Char);
                 pPass.Value = user.uPass;
-                return ((int)DB.getScalar("select count (*) from users where iName = @ uName and uPass = @uPass",pName,pPass) > 0);
+                return ((int)DB.getScalar("select count (*) from users where uName = @uName and uPass = @uPass",pName,pPass) > 0);
             }
             return false; 
         }
@@ -37,10 +37,10 @@ namespace NetTestDAL
                     SqlParameter pTitle = new SqlParameter("@tTitle", SqlDbType.Char);
                     pTitle.Value = test.tTitle;
                     SqlParameter pText = new SqlParameter("@tText", SqlDbType.Text);
-                    pTitle.Value = test.tText;
+                    pText.Value = test.tText;
                     SqlParameter pAnswer = new SqlParameter("@tAnswer", SqlDbType.Char);
-                    pTitle.Value = test.tAnswer;
-                    if (DB.executeCommand("indert into tests (tDate,tTitle,tText,tAnswer) values (@tDate,@tTitle,@tText,@tAnswer)", pDate, pTitle, pText, pAnswer) > 0)
+                    pAnswer.Value = test.tAnswer;
+                    if (DB.executeCommand("insert into tests (tDate,tTitle,tText,tAnswer) values (@tDate,@tTitle,@tText,@tAnswer)", pDate, pTitle, pText, pAnswer) > 0)
                     {
                         test.ID = DB.getScalar("select top 1 ID from tests order by ID desc");
                     }

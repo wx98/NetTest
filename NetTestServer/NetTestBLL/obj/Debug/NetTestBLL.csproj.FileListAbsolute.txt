@@ -25,3 +25,12 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\De
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.pdb

@@ -64,8 +64,8 @@ namespace NetTestClient
 
         private void btUpLoad_Click(object sender, RoutedEventArgs e)
         {
-            String uName = txtUser.Text.Trim();
-            String uPass = txtPass.Password.Trim();
+            String uName = Get_Info.User;
+            String uPass = Get_Info.Pass;
             String tTitle = txtTitle.Text.Trim();
             String text = txtText.Text.Trim();
             if (uName != "" && uPass != "" && tTitle != "" && text != "")

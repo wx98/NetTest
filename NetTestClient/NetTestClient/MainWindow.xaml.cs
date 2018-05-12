@@ -33,8 +33,22 @@ namespace NetTestClient
         {
             if (e.Error == null)
             {
-                Option a = new Option();
-                a.ShowDialog();
+                if (e.Result.Equals("logined"))
+                {
+                    Get_Info.User = this.txtUser.Text;
+                    Get_Info.Pass = this.txtPass.Password;
+                    Option a = new Option();
+                    a.Show();
+                    this.Close(); 
+                }
+                else if (e.Result.Equals("registered"))
+                {
+                    MessageBox.Show("注册成功!请重新登录");
+                }
+                else
+                {
+                    MessageBox.Show("非法用户");
+                }
             }
             else
                 MessageBox.Show(e.Error.Message);
