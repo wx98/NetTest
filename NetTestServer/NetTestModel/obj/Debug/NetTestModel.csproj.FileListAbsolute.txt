@@ -14,3 +14,4 @@ C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestModel\bin
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestModel\bin\Debug\NetTestModel.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestModel\obj\Debug\NetTestModel.dll
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestModel\obj\Debug\NetTestModel.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.csprojResolveAssemblyReference.cache

@@ -6,6 +6,7 @@ using System.ServiceModel;
 using System.Text;
 using NetTestModel;
 using NetTestBLL;
+using System.Data;
 
 namespace NetTestSever
 {
@@ -13,11 +14,16 @@ namespace NetTestSever
     [ServiceContract]
     public interface INetTestService
     {
-        [OperationContract]
-        void DoWork();
+
         [OperationContract]
         string login(UserClass user);
         [OperationContract]
         TestClass addTest(TestClass tset);
+        [OperationContract]
+        DataTable getTestDataTable();
+        [OperationContract]
+        bool deleteTest(TestClass tset);
+
+        
     }
 }

@@ -12,7 +12,7 @@
         <StackPanel Grid.Row="0"  HorizontalAlignment="Center">
             <Label Content="基于WCF的试题练习程序" Margin="0,50,0,0" FontSize="40" VerticalAlignment="Top" HorizontalAlignment="Right"/>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.Row="1"  HorizontalAlignment="Center" >
+        <StackPanel Orientation="Horizontal"  Grid.Row="1"  HorizontalAlignment="Center" >
             <Label Content="用户名:"  Height="23" Width="50" Margin="10,10,0,0"/>
             <TextBox x:Name="txtUser"  Margin="10,10,0,0" Height="23" Width="150"/>
         </StackPanel>

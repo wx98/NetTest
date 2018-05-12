@@ -6,15 +6,14 @@ using System.ServiceModel;
 using System.Text;
 using NetTestModel;
 using NetTestBLL;
+using System.Data;
 
 namespace NetTestSever
 {
     // 注意: 使用“重构”菜单上的“重命名”命令，可以同时更改代码和配置文件中的类名“NetTestService”。
     public class NetTestService : INetTestService
     {
-        public void DoWork()
-        {
-        }
+        
         public string login(UserClass user)
         {
             UserManager manager = new UserManager();
@@ -33,6 +32,16 @@ namespace NetTestSever
             manager.addTest(getUser(), ref test);
             return test;
         }
-        
+
+        public DataTable getTestDataTable(UserClass user)
+        {
+            TestManager manager = new TestManager();
+            return manager.getTestDataTable(getUser());
+        }
+        public bool deleteTest(UserClass user, TestClass test)
+        {
+            TestManager manager = new TestManager();
+            return manager.deleteTest(getUser(), test);
+        }
     }
 }

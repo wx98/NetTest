@@ -18,7 +18,6 @@ D:\Visual Studio 2012\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.dll
 D:\Visual Studio 2012\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.pdb

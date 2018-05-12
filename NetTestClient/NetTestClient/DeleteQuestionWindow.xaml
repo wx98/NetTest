@@ -1,0 +1,31 @@
+﻿<Window x:Class="NetTestClient.DeleteQuestionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DeleteQuestionWindow" Height="345" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width=" 1*"/>
+            </Grid.ColumnDefinitions>
+            <DataGrid x:Name="uGrid" Grid.Column="0" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" SelectedCellsChanged="uGrid_SelectedCellsChanged" CanUserDeleteRows="False" CanUserAddRows="False" CanUserReorderColumns="False" CanUserResizeRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding ID}" Header="ID" Width="50"/>
+                    <DataGridTextColumn Binding="{Binding tDate}" Header="日期" Width="100"/>
+                    <DataGridTextColumn Binding="{Binding tTitle}" Header="标题" Width="100"/>
+                    <DataGridTextColumn Binding="{Binding tAnswer}" Header="答案" Width="50"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <GridSplitter Width="3"/>
+            <TextBox x:Name="txtText" Grid.Column="1" Text="{Binding tText,Mode=TwoWay}" VerticalScrollBarVisibility="Auto"/>
+        </Grid>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button x:Name="btGetTest" Content="获取试题"   Click="btGettest_Click" Margin="10,10,0,10" Height="23" Width="100" />
+            <Button x:Name="btDeleteTest" Content="删除试题"   Click="btDeleteTest_Click" Margin="10,10,0,10" Height="23" Width="100" />
+        </StackPanel>
+    </Grid>
+</Window>

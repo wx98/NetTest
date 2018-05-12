@@ -64,3 +64,5 @@ D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\Net
 D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.g.resources
 D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.Properties.Resources.resources
 D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.csproj.GenerateResource.Cache
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\DeleteQuestionWindow.baml
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\DeleteQuestionWindow.g.cs

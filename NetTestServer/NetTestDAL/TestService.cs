@@ -11,6 +11,8 @@ namespace NetTestDAL
 {
     public class TestService
     {
+        //verifyAdmin()
+        //管理员身份验证函数;
         bool verifyAdmin(DBHelper DB,UserClass user)
         {
             if (user.uName == "Admin")
@@ -23,7 +25,8 @@ namespace NetTestDAL
             }
             return false; 
         }
-
+        //addTest()
+        //添加试题函数
         public int addTest(UserClass user, ref TestClass test)
         {
             test.ID = 0;
@@ -48,6 +51,40 @@ namespace NetTestDAL
                 con.Close();
             }
             return test.ID;
-        } 
+        }
+
+        public DataTable getTestDataTable(UserClass user)
+        {
+            DataTable dt = null;
+            using (SqlConnection con = new SqlConnection(DBHelper.conString))
+            {
+                DBHelper DB = new DBHelper(con);
+                if (verifyAdmin(DB, user))
+                {
+                    SqlDataAdapter adapter = DB.getAdapter("select ID,tDate,tTitle,tAnswer,tText from tests order by ID");
+                    dt = new DataTable("Test");
+                    adapter.Fill(dt);
+                }
+                con.Close();
+            }
+            return dt;
+        }
+        //deleteTest()
+        //除试题函数
+        public bool deleteTest(UserClass user, TestClass test)
+        {
+            bool flag = false;
+            using (SqlConnection con = new SqlConnection(DBHelper.conString))
+            {
+                DBHelper DB = new DBHelper(con);
+                if (verifyAdmin(DB, user))
+                {
+                    if (DB.executeCommand("delete from tests where ID = "+test.ID.ToString()) > 0)
+                        flag = true;
+                }
+                con.Close();
+            }
+            return flag;
+        }
     }
 }

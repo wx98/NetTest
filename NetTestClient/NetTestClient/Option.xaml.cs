@@ -35,6 +35,8 @@ namespace NetTestClient
 
         private void Delete_Question_Click(object sender, RoutedEventArgs e)
         {
+            DeleteQuestionWindow deletewindow = new DeleteQuestionWindow();
+            deletewindow.ShowDialog();
 
         }
 
