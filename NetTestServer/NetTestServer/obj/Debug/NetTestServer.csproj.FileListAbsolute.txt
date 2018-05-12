@@ -34,3 +34,18 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestModel.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe.config
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.exe
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestServer.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestModel.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestModel.pdb
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe.config
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.exe
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.pdb

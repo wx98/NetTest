@@ -22,6 +22,9 @@ namespace NetTestClient
         public Option()
         {
             InitializeComponent();
+            string user = Get_Info.User;
+            if (user != "Admin")
+                this.btAdd.Visibility = Visibility.Hidden;
         }
 
         private void Add_Question_Click(object sender, RoutedEventArgs e)

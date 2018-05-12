@@ -30,3 +30,37 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient.csproj.GenerateResource.Cache
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\AddQuestionWindow.baml
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\AddQuestionWindow.g.cs
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\bin\Debug\NetTestClient.exe.config
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.exe
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\bin\Debug\NetTestClient.exe
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\bin\Debug\NetTestClient.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\AddQuestionWindow.baml
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\MainWindow.baml
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\Option.baml
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\AddQuestionWindow.g.cs
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\MainWindow.g.cs
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\Option.g.cs
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\App.g.cs
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient_MarkupCompile.cache
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.g.resources
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.Properties.Resources.resources
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.csproj.GenerateResource.Cache
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\bin\Debug\NetTestClient.exe.config
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.exe
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.pdb
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\bin\Debug\NetTestClient.exe
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\bin\Debug\NetTestClient.pdb
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\AddQuestionWindow.baml
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\MainWindow.baml
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\Option.baml
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\AddQuestionWindow.g.cs
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\MainWindow.g.cs
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\Option.g.cs
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\App.g.cs
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient_MarkupCompile.cache
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.g.resources
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.Properties.Resources.resources
+D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestClient\NetTestClient\obj\Debug\NetTestClient.csproj.GenerateResource.Cache

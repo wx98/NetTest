@@ -2,3 +2,7 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\bin\
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\bin\Release\NetTestModel.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\obj\Release\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\obj\Release\NetTestModel.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestModel\bin\Release\NetTestModel.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestModel\bin\Release\NetTestModel.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestModel\obj\Release\NetTestModel.dll
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestModel\obj\Release\NetTestModel.pdb

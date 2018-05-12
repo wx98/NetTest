@@ -14,4 +14,17 @@ namespace NetTestClient
     public partial class App : Application
     {
     }
+    public class Get_Info
+    {
+        private static string _user;
+        private static string _pass;
+        public static string User{
+            get { return _user;}
+            set { _user = value;}
+        }
+        public static string Pass{
+            get { return _pass;}
+            set { _pass = value;}
+        }
+    }
 }

@@ -11,3 +11,6 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Release\NetTestServer.csprojResolveAssemblyReference.cache
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Release\NetTestServer.exe
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Release\NetTestServer.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Release\NetTestServer.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Release\NetTestServer.exe
+C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Release\NetTestServer.pdb
