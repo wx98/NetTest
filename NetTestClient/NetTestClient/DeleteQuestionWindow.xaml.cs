@@ -31,8 +31,12 @@ namespace NetTestClient
         {
             InitializeComponent();
             client = new WCF.NetTestServiceClient();
+            client.getTestDataTableCompleted += client_getTestDataTableCompleted;
+            client.deleteTestCompleted +=client_deleteTestCompleted;
+            client.Endpoint.Address = new System.ServiceModel.EndpointAddress(new Uri(url, UriKind.Absolute));
             
         }
+
         void client_deleteTestCompleted(object sender ,WCF.deleteTestCompletedEventArgs e)
         {
             if (e.Error == null)
@@ -45,6 +49,15 @@ namespace NetTestClient
                 }
             }
             else showMsg(e.Error.Message);
+        }
+        void client_getTestDataTableCompleted(object sender, WCF.getTestDataTableCompletedEventArgs e)
+        {
+            if (e.Error == null)
+            {
+                dt = e.Result;
+                dv = dt.DefaultView;
+                uGrid.ItemsSource = dv;
+            }
         }
         void showMsg(String s)
         {
@@ -85,7 +98,8 @@ namespace NetTestClient
                 }
             }
         }
-        private void uGrid_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
+
+        private void uGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (uGrid.SelectedIndex >= 0)
             {

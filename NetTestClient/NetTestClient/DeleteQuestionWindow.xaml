@@ -9,18 +9,18 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="280"/>
                 <ColumnDefinition Width=" 1*"/>
             </Grid.ColumnDefinitions>
-            <DataGrid x:Name="uGrid" Grid.Column="0" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" SelectedCellsChanged="uGrid_SelectedCellsChanged" CanUserDeleteRows="False" CanUserAddRows="False" CanUserReorderColumns="False" CanUserResizeRows="False">
+            <DataGrid x:Name="uGrid" Grid.Column="0" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" SelectionChanged="uGrid_SelectionChanged" CanUserDeleteRows="False" CanUserAddRows="False" CanUserReorderColumns="False" CanUserResizeRows="False">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Binding="{Binding ID}" Header="ID" Width="50"/>
+                    <DataGridTextColumn Binding="{Binding ID}" Header="ID" Width="30"/>
                     <DataGridTextColumn Binding="{Binding tDate}" Header="日期" Width="100"/>
                     <DataGridTextColumn Binding="{Binding tTitle}" Header="标题" Width="100"/>
-                    <DataGridTextColumn Binding="{Binding tAnswer}" Header="答案" Width="50"/>
+                    <DataGridTextColumn Binding="{Binding tAnswer}" Header="答案" Width="40"/>
                 </DataGrid.Columns>
             </DataGrid>
-            <GridSplitter Width="3"/>
+            <GridSplitter Width="1"/>
             <TextBox x:Name="txtText" Grid.Column="1" Text="{Binding tText,Mode=TwoWay}" VerticalScrollBarVisibility="Auto"/>
         </Grid>
         <StackPanel Orientation="Horizontal" Grid.Row="1">
