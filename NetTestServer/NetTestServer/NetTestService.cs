@@ -19,6 +19,7 @@ namespace NetTestSever
             UserManager manager = new UserManager();
             return manager.login(user);
         }
+        
         UserClass getUser()
         {
            
@@ -26,6 +27,7 @@ namespace NetTestSever
             String uPass = OperationContext.Current.IncomingMessageHeaders.GetHeader<String>("uPass", "MySpace");
             return new UserClass { uName = uName, uPass = uPass };
         }
+
         public TestClass addTest(TestClass test) 
         {
             TestManager manager = new TestManager();

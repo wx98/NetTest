@@ -2,8 +2,6 @@ D:\Visual Studio 2012\NetTest\NetTestServer\bin\Release\NetTestServer.exe.config
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestServer.exe.config
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestServer.exe
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestServer.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestBLL.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestDAL.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestBLL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestDAL.pdb

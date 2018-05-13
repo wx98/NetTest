@@ -22,18 +22,6 @@ D:\Visual Studio 2012\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestModel
 D:\Visual Studio 2012\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.dll
 D:\Visual Studio 2012\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.pdb
 D:\Visual Studio 2012\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.csprojResolveAssemblyReference.cache
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe.config
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.exe
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestModel.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestModel.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.csprojResolveAssemblyReference.cache
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe.config
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.exe
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.pdb
@@ -49,3 +37,15 @@ C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bi
 D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe.config
 D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.exe
 D:\Engineering being done\GitHub\NetTest-master\NetTest-master\NetTestServer\NetTestServer\obj\Debug\NetTestServer.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe.config
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestModel.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestModel.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.exe
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.pdb

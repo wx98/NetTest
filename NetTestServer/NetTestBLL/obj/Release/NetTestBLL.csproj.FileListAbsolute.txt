@@ -1,6 +1,5 @@
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestBLL.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestBLL.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestDAL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestModel.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Release\NetTestBLL.csprojResolveAssemblyReference.cache
@@ -9,4 +8,5 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Re
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\obj\Release\NetTestBLL.csprojResolveAssemblyReference.cache
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\obj\Release\NetTestBLL.dll
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\obj\Release\NetTestBLL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestDAL.dll

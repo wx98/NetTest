@@ -19,10 +19,11 @@ namespace NetTestSever
         string login(UserClass user);
         [OperationContract]
         TestClass addTest(TestClass tset);
+
         [OperationContract]
-        DataTable getTestDataTable();
+        DataTable getTestDataTable(UserClass user);
         [OperationContract]
-        bool deleteTest(TestClass tset);
+        bool deleteTest(UserClass user, TestClass test);
 
         
     }
