@@ -62,6 +62,7 @@ namespace NetTestDAL
                 if (verifyAdmin(DB, user))
                 {
                     SqlDataAdapter adapter = DB.getAdapter("select ID,tDate,tTitle,tAnswer,tText from tests order by ID");
+                    adapter.SelectCommand = DBHelper.cmd;
                     dt = new DataTable("Test");
                     adapter.Fill(dt);
                 }

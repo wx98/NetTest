@@ -21,9 +21,9 @@ namespace NetTestSever
         TestClass addTest(TestClass tset);
 
         [OperationContract]
-        DataTable getTestDataTable(UserClass user);
+        DataTable getTestDataTable();
         [OperationContract]
-        bool deleteTest(UserClass user, TestClass test);
+        bool deleteTest(TestClass test);
 
         
     }

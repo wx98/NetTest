@@ -21,11 +21,12 @@
     <MetadataSource Address="http://localhost:8889/NetTestService/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="6ecf0392-793b-4b5e-a60a-596bbeff134d" SourceId="1" SourceUrl="http://localhost:8889/NetTestService/?xsd=xsd1" />
     <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="fc896ba4-169f-45bb-89a5-b967fabda6fc" SourceId="1" SourceUrl="http://localhost:8889/NetTestService/?xsd=xsd2" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="621b94b7-2b5b-4e0f-abc6-2ea2b121c0bb" SourceId="1" SourceUrl="http://localhost:8889/NetTestService/?xsd=xsd3" />
     <MetadataFile FileName="item.disco" MetadataType="Disco" ID="5a99260b-e711-4b0f-abe7-5cb5b7f7ede3" SourceId="1" SourceUrl="http://localhost:8889/NetTestService/?disco" />
-    <MetadataFile FileName="NetTestService.wsdl" MetadataType="Wsdl" ID="95d029e4-3f31-49c0-97c4-27631ebd178e" SourceId="1" SourceUrl="http://localhost:8889/NetTestService/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="6ecf0392-793b-4b5e-a60a-596bbeff134d" SourceId="1" SourceUrl="http://localhost:8889/NetTestService/?xsd=xsd1" />
     <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="662a6c6e-653a-4dea-92db-61445475e6d7" SourceId="1" SourceUrl="http://localhost:8889/NetTestService/?xsd=xsd0" />
+    <MetadataFile FileName="NetTestService.wsdl" MetadataType="Wsdl" ID="95d029e4-3f31-49c0-97c4-27631ebd178e" SourceId="1" SourceUrl="http://localhost:8889/NetTestService/?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

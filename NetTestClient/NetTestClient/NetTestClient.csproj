@@ -113,6 +113,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -125,6 +126,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\WCF\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WCF\item3.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\WCF\NetTestClient.WCF.TestClass.datasource">

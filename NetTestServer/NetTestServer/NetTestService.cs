@@ -35,12 +35,12 @@ namespace NetTestSever
             return test;
         }
 
-        public DataTable getTestDataTable(UserClass user)
+        public DataTable getTestDataTable()
         {
             TestManager manager = new TestManager();
             return manager.getTestDataTable(getUser());
         }
-        public bool deleteTest(UserClass user, TestClass test)
+        public bool deleteTest(TestClass test)
         {
             TestManager manager = new TestManager();
             return manager.deleteTest(getUser(), test);
