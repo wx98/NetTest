@@ -25,6 +25,12 @@ namespace NetTestSever
         [OperationContract]
         bool deleteTest(TestClass test);
 
+
+        [OperationContract]
+        DataTable getUserTestDataTable();
+        [OperationContract]
+        int setUserMark(int mValue);
+
         
     }
 }

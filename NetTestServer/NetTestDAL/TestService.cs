@@ -25,6 +25,16 @@ namespace NetTestDAL
             }
             return false; 
         }
+        bool verifyUser(DBHelper DB, UserClass user)
+        {
+        
+            SqlParameter pName = new SqlParameter("@uName", SqlDbType.Char);
+            pName.Value = user.uName;
+            SqlParameter pPass = new SqlParameter("@uPass", SqlDbType.Char);
+            pPass.Value = user.uPass;
+            return ((int)DB.getScalar("select count (*) from users where uName = @uName and uPass = @uPass", pName, pPass) > 0);
+        }
+
         //addTest()
         //添加试题函数
         public int addTest(UserClass user, ref TestClass test)
@@ -87,5 +97,55 @@ namespace NetTestDAL
             }
             return flag;
         }
+     
+        
+        
+        
+        
+        public DataTable getUserTestDataTable(UserClass user)
+        {
+            Random rnd = new Random();
+            DataTable dt = null;
+            using (SqlConnection con = new SqlConnection(DBHelper.conString))
+            {
+                DBHelper DB = new DBHelper(con);
+                if (verifyUser(DB, user))
+                {
+                    SqlDataAdapter adapter = DB.getAdapter("select top 10 * from tests order by NEWID()");
+                    adapter.SelectCommand = DBHelper.cmd;
+                    dt = new DataTable("Test");
+                    adapter.Fill(dt);
+                }
+                con.Close();
+            }
+            return dt;
+        }
+
+        public int setUserMark(UserClass user, int mValue)
+        {
+            int flag = -1;
+            using (SqlConnection con = new SqlConnection(DBHelper.conString))
+            {
+                DBHelper DB = new DBHelper(con);
+                if (verifyAdmin(DB, user))
+                {
+                    SqlParameter pName= new SqlParameter("@uName", SqlDbType.Char);
+                    pName.Value = user.uName;
+                    SqlParameter pDate = new SqlParameter("@mDate", SqlDbType.Char);
+                    pDate.Value = DateTime.Now.ToString("yyy-MM-dd HH:mm:ss");
+                    SqlParameter pValue = new SqlParameter("@mValue", SqlDbType.Text);
+                    pValue.Value = mValue;
+
+                    if (DB.executeCommand("insert into marks (uName,mDate,mValue) values (@uName,@mDate,@mValue)", pName, pDate, pValue) > 0)
+                    {
+                        flag = mValue;
+                    }
+                }
+                con.Close();
+            }
+            return flag;
+        }
+
+
     }
 }

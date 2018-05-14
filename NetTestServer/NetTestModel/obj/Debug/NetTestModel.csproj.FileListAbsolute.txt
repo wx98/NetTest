@@ -14,3 +14,7 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\bin\
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\bin\Debug\NetTestModel.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestModel\obj\Debug\NetTestModel.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestModel\bin\Debug\NetTestModel.dll
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestModel\bin\Debug\NetTestModel.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestModel\obj\Debug\NetTestModel.dll
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestModel\obj\Debug\NetTestModel.pdb

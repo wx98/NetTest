@@ -10,3 +10,12 @@ C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\obj\R
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\obj\Release\NetTestBLL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Release\NetTestDAL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Release\NetTestBLL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Release\NetTestBLL.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Release\NetTestDAL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Release\NetTestModel.dll
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Release\NetTestDAL.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Release\NetTestModel.pdb
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\obj\Release\NetTestBLL.csprojResolveAssemblyReference.cache
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\obj\Release\NetTestBLL.dll
+C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\obj\Release\NetTestBLL.pdb

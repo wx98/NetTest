@@ -26,5 +26,16 @@ namespace NetTestBLL
             TestService service = new TestService();
             return service.deleteTest(user, test);
         }
+
+        public DataTable getUserTestDataTable(UserClass user)
+        {
+            TestService service = new TestService();
+            return service.getUserTestDataTable(user);
+        }
+        public int setUserMark(UserClass user,int mValue)
+        {
+            TestService service = new TestService();
+            return service.setUserMark(user, mValue);
+        }
     }
 }

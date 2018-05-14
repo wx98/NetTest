@@ -12,10 +12,10 @@ namespace NetTestDAL
     {
         /*数据库IP,用户名密码
           Database connection character*/
-        public static String Data_IP = "192.168.1.108;";
+        public static String Data_IP = "stu32;";
         public static String Data_UserName = "sa;";
-        public static String Data_UserPass = "123456;";
-        public static String Data_Base = "NetTest_Database;";
+        public static String Data_UserPass = "sa;";
+        public static String Data_Base = "NetTest;";
         public static String conString = "Database=" + Data_Base +"Server=" + Data_IP + "User ID=" + Data_UserName + "Password=" + Data_UserPass + ";";
         
         private SqlConnection con;

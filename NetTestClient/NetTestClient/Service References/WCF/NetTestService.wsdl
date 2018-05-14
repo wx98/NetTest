@@ -32,6 +32,18 @@
   <wsdl:message name="INetTestService_deleteTest_OutputMessage">
     <wsdl:part name="parameters" element="tns:deleteTestResponse" />
   </wsdl:message>
+  <wsdl:message name="INetTestService_getUserTestDataTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:getUserTestDataTable" />
+  </wsdl:message>
+  <wsdl:message name="INetTestService_getUserTestDataTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getUserTestDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="INetTestService_setUserMark_InputMessage">
+    <wsdl:part name="parameters" element="tns:setUserMark" />
+  </wsdl:message>
+  <wsdl:message name="INetTestService_setUserMark_OutputMessage">
+    <wsdl:part name="parameters" element="tns:setUserMarkResponse" />
+  </wsdl:message>
   <wsdl:portType name="INetTestService">
     <wsdl:operation name="login">
       <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/login" message="tns:INetTestService_login_InputMessage" />
@@ -48,6 +60,14 @@
     <wsdl:operation name="deleteTest">
       <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/deleteTest" message="tns:INetTestService_deleteTest_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/INetTestService/deleteTestResponse" message="tns:INetTestService_deleteTest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserTestDataTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/getUserTestDataTable" message="tns:INetTestService_getUserTestDataTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INetTestService/getUserTestDataTableResponse" message="tns:INetTestService_getUserTestDataTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="setUserMark">
+      <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/setUserMark" message="tns:INetTestService_setUserMark_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INetTestService/setUserMarkResponse" message="tns:INetTestService_setUserMark_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_INetTestService" type="tns:INetTestService">
@@ -81,6 +101,24 @@
     </wsdl:operation>
     <wsdl:operation name="deleteTest">
       <soap:operation soapAction="http://tempuri.org/INetTestService/deleteTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserTestDataTable">
+      <soap:operation soapAction="http://tempuri.org/INetTestService/getUserTestDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setUserMark">
+      <soap:operation soapAction="http://tempuri.org/INetTestService/setUserMark" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

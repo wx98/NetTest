@@ -25,13 +25,6 @@ namespace NetTestClient
             string user = Get_Info.User;
             if (user != "Admin")
             {
-                this.btAdd.Visibility = Visibility.Hidden;
-                this.btDelete.Visibility = Visibility.Hidden;
-                this.btUpdate.Visibility = Visibility.Hidden;
-                //this.btExercise.Margin;
-                Button btAdd = panel.FindName("btAdd") as Button;
-                Button btDelete = panel.FindName("btDelete") as Button;
-                Button btUpdate = panel.FindName("btUpdate") as Button;
                 if (btAdd != null && btDelete != null && btUpdate != null)
                 {
                     panel.Children.Remove(btAdd);
@@ -61,7 +54,8 @@ namespace NetTestClient
 
         private void Exercise_Question_Click(object sender, RoutedEventArgs e)
         {
-
+            ExerciseWindow exercisewindow = new ExerciseWindow();
+            exercisewindow.ShowDialog();
         }
 
         
