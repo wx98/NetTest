@@ -49,7 +49,7 @@ namespace NetTestSever
         public DataTable getUserTestDataTable()
         {
             TestManager manager = new TestManager();
-            return manager.getTestDataTable(getUser());
+            return manager.getUserTestDataTable(getUser());
         }
         public int setUserMark(int mValue)
         {

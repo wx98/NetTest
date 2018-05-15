@@ -24,3 +24,5 @@ C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestServer\bin\Release\NetTe
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestServer\obj\Release\NetTestServer.csprojResolveAssemblyReference.cache
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestServer\obj\Release\NetTestServer.exe
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestServer\obj\Release\NetTestServer.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestDAL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Release\NetTestBLL.dll

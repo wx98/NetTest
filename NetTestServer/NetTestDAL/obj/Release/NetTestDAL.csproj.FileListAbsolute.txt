@@ -7,7 +7,6 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Re
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.csprojResolveAssemblyReference.cache
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.dll
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Release\NetTestModel.dll
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\bin\Release\NetTestDAL.dll
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\bin\Release\NetTestDAL.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\bin\Release\NetTestModel.dll
@@ -15,3 +14,4 @@ C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\bin\Release\NetTestM
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.csprojResolveAssemblyReference.cache
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.dll
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\obj\Release\NetTestDAL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Release\NetTestModel.dll

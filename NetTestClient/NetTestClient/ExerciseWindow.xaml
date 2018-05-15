@@ -1,7 +1,11 @@
 ﻿<Window x:Class="NetTestClient.ExerciseWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:NetTest="clr-namespace:NetTestClient"
         Title="ExerciseWindow" Height="347" Width="525" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <NetTest:AnswerClass x:Key="answerList"/>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -9,14 +13,22 @@
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Grid.Row="0">
             <Button x:Name="btGetTest" Content="获取试题"   Click="btGetTest_Click" Margin="10,10,0,10" Height="23" Width="100" />
-            <Button x:Name="btHandleTest" Content="删除试题"   Click="btHandleTest_Click" Margin="10,10,0,10" Height="23" Width="100" />
+            <Button x:Name="btHandleTest" Content="提交答案"   Click="btHandleTest_Click" Margin="10,10,0,10" Height="23" Width="100" />
+            <TextBlock x:Name="msg" Text="" Foreground="Red" Margin="10,10,0,10"/>
         </StackPanel>
-        <DataGrid  Grid.Row="1" Margin="10,10,10,10">
-            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-                <ScrollViewer.Content>
-                    <StackPanel Orientation="Vertical" x:Name="spTest"/>
-                </ScrollViewer.Content>
-            </ScrollViewer>
-        </DataGrid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="160"/>   
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <DataGrid x:Name="uGrid"  Grid.Column="0" AutoGenerateColumns="False" SelectionMode="Single" SelectionChanged="uGrid_selectionChanged" CanUserDeleteRows="False" CanUserAddRows="False" CanUserReorderColumns="False" CanUserResizeColumns="False" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding tNo}" Header="序号" Width="40" IsReadOnly="True"/>
+                    <DataGridComboBoxColumn x:Name="dataGridView1" Header="答案" ItemsSource="{StaticResource answerList}" Width="80" SelectedItemBinding="{Binding uAnswer,Mode = TwoWay}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <GridSplitter Width="3"/>
+            <TextBox x:Name="txtText" Grid.Column="1" Text="{Binding tText,Mode=TwoWay}" VerticalScrollBarVisibility="Auto"/>
+        </Grid>
     </Grid>
 </Window>

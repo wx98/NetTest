@@ -97,11 +97,7 @@ namespace NetTestDAL
             }
             return flag;
         }
-     
-        
-        
-        
-        
+       
         public DataTable getUserTestDataTable(UserClass user)
         {
             Random rnd = new Random();
@@ -127,13 +123,13 @@ namespace NetTestDAL
             using (SqlConnection con = new SqlConnection(DBHelper.conString))
             {
                 DBHelper DB = new DBHelper(con);
-                if (verifyAdmin(DB, user))
+                if (verifyUser(DB, user))
                 {
                     SqlParameter pName= new SqlParameter("@uName", SqlDbType.Char);
                     pName.Value = user.uName;
                     SqlParameter pDate = new SqlParameter("@mDate", SqlDbType.Char);
                     pDate.Value = DateTime.Now.ToString("yyy-MM-dd HH:mm:ss");
-                    SqlParameter pValue = new SqlParameter("@mValue", SqlDbType.Text);
+                    SqlParameter pValue = new SqlParameter("@mValue", SqlDbType.Int);
                     pValue.Value = mValue;
 
                     if (DB.executeCommand("insert into marks (uName,mDate,mValue) values (@uName,@mDate,@mValue)", pName, pDate, pValue) > 0)
