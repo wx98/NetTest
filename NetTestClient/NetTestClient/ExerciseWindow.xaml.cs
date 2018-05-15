@@ -38,6 +38,7 @@ namespace NetTestClient
         DataView dv;
         public ExerciseWindow()
         {
+
             InitializeComponent();
             client = new WCF.NetTestServiceClient();
             client.getUserTestDataTableCompleted += client_getUserTestDataTableCompleted;

@@ -25,6 +25,8 @@ namespace NetTestDAL
             }
             return false; 
         }
+        //verifyUser()
+        //已注册用户身份验证函数
         bool verifyUser(DBHelper DB, UserClass user)
         {
         
@@ -63,6 +65,8 @@ namespace NetTestDAL
             return test.ID;
         }
 
+        //getTestDataTable()
+        //获得试题表函数
         public DataTable getTestDataTable(UserClass user)
         {
             DataTable dt = null;
@@ -80,8 +84,9 @@ namespace NetTestDAL
             }
             return dt;
         }
+
         //deleteTest()
-        //除试题函数
+        //删除除试题函数
         public bool deleteTest(UserClass user, TestClass test)
         {
             bool flag = false;
@@ -97,7 +102,9 @@ namespace NetTestDAL
             }
             return flag;
         }
-       
+
+        //getUserTestDataTable()
+        //随机获得10个试题表函数
         public DataTable getUserTestDataTable(UserClass user)
         {
             Random rnd = new Random();
@@ -117,6 +124,8 @@ namespace NetTestDAL
             return dt;
         }
 
+        //setUserMark()
+        //设置用户成绩函数
         public int setUserMark(UserClass user, int mValue)
         {
             int flag = -1;

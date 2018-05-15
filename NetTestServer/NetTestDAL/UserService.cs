@@ -11,6 +11,9 @@ namespace NetTestDAL
 {
     public class UserService
     {
+        //login()
+        //完成用户的登录或注册
+        //返回用户的三种状态
         public string login(UserClass user)
         {
             string s = "failed";
