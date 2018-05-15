@@ -39,6 +39,11 @@ namespace NetTestClient
         public ExerciseWindow()
         {
             InitializeComponent();
+            client = new WCF.NetTestServiceClient();
+            client.getUserTestDataTableCompleted += client_getUserTestDataTableCompleted;
+            client.Endpoint.Address = new System.ServiceModel.EndpointAddress(new Uri(url, UriKind.Absolute));
+            btHandleTest.IsEnabled = false;
+            
             
         }
         void client_getUserTestDataTableCompleted(object sender, WCF.getUserTestDataTableCompletedEventArgs e)
@@ -138,7 +143,7 @@ namespace NetTestClient
                         MessageHeader pass = MessageHeader.CreateHeader("uPass", "MySpace", uPass);
                         OperationContext.Current.OutgoingMessageHeaders.Add(user);
                         OperationContext.Current.OutgoingMessageHeaders.Add(pass);
-                        client.getTestDataTableAsync();
+                        client.getUserTestDataTableAsync();
                     }
                 }
                 catch (Exception exp)

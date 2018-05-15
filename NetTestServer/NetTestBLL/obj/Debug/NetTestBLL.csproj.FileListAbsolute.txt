@@ -25,13 +25,6 @@ C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\D
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.dll
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.csprojResolveAssemblyReference.cache
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.dll
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.dll
@@ -41,3 +34,12 @@ C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.dll
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestBLL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestDAL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\bin\Debug\NetTestModel.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestBLL\obj\Debug\NetTestBLL.pdb

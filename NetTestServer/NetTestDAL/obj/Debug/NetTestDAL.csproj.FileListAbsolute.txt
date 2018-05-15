@@ -18,13 +18,6 @@ C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestDAL\bin\D
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.dll
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTest-master\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.csprojResolveAssemblyReference.cache
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestDAL.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestDAL.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.csprojResolveAssemblyReference.cache
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\bin\Debug\NetTestDAL.dll
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\bin\Debug\NetTestDAL.pdb
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.dll
@@ -32,3 +25,10 @@ C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\bin\Debug\NetTestMod
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.csprojResolveAssemblyReference.cache
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.dll
 C:\Users\sy\Desktop\NetTest-master\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestDAL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestDAL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\bin\Debug\NetTestModel.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.csprojResolveAssemblyReference.cache
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestDAL\obj\Debug\NetTestDAL.pdb

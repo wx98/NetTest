@@ -89,3 +89,5 @@ C:\Users\sy\Desktop\NetTest-master\NetTestClient\NetTestClient\obj\Debug\Exercis
 C:\Users\sy\Desktop\NetTest-master\NetTestClient\NetTestClient\obj\Debug\ExerciseWindow.g.cs
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\ExerciseWindow.baml
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\ExerciseWindow.g.cs
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient_MarkupCompile.lref
