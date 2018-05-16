@@ -1,6 +1,10 @@
 # NetTest
-本项目是基于WCF（Windows Communication Foundatiomn）框架的试题练习程序   
-功能：添加试题、删除试题、更新试题、试题练习.
+本项目是基于 ___WCF（Windows Communication Foundatiomn）___ 框架的试题练习程序   
+功能：   
+* 添加试题
+* 删除试题
+* 更新试题
+* 试题练习
 ## 支持的环境
 系统：__windows__   
 本项目在  __Microsoft Visual Studio Ultimate 2012__  编译通过   
@@ -19,8 +23,7 @@ NetTestServer __(服务器端)__
 >>-[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)   
 >>`数据库的连接，一些基本访问函数`   
 >>-[TestService.cs](/NetTestServer/NetTestDAL/TestService.cs)    
->>`对数据库表的一些基本操作，给tests添加新字段函数，删除tests字段函数,`   
->>`更新test字段函数,得到10条tests表记录函数，添加marks表字段函数`    
+>>`对数据库表的一些基本操作，给tests添加新字段函数，删除tests字段函数,更新test字段函数,得到10条tests表记录函数，添加marks表字段函数`    
 >>-[UserService.cs](/NetTestServer/NetTestDAL/UserService.cs)     
 >>`对users表的操作，添加，查询`   
 >
@@ -83,7 +86,11 @@ NetTestClient(客户端)
 >>`用于 `__练习习题窗口__` 窗口的事件函数以及一些处算法逻辑`
 
 ## 部署
-
+部署超级简单   
+1.数据库部分参考[NetTest_Database.sql](NetTestServer/NetTest_Database.sql)文件进行数据库创建。    
+2.连接数据库部分请更改[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)文件第15行~18行。      
+3.重新生成过后请用管理员身份运行[NetTestServer.exe](/NetTestServer/NetTestServer/bin/Debug/NetTestServer.exe)文件，作为服务器端。     
+4.请启动[NetTestClient.exe](/NetTestClient/NetTestClient/bin/Debug/NetTestClient.exe)作为客户端。  
 
 MIT License
 ======
