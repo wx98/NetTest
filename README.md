@@ -10,40 +10,40 @@ Microsoft .Net Framework __Version 4.7.02556__
 ## 文件结构
 NetTestServer __(服务器端)__   
 >-NetTestBLL __业务逻辑层__   
->>-[NetTestManager.cs](/NetTestServer/NetTestBLL/TestManager.cs)    
->>-[UserManager.cs](/NetTestServerNetTestBLL/UserManager.cs)   
+>>-[NetTestManager.cs](NetTestServer\NetTestBLL\\TestManager.cs)    
+>>-[UserManager.cs](NetTestServer\NetTestBLL\\UserManager.cs)   
 >
 >-NetTestDAl __数据访问层__   
->>-[DBHelper.cs](NetTestDAL/DBHelper.cs)   
->>-[TestService.cs](NetTestDAL/TestService.cs)      
->>-[UserService.cs](NetTestDAL/UserService.cs)   
+>>-[DBHelper.cs](NetTestDAL\DBHelper.cs)   
+>>-[TestService.cs](NetTestDAL\TestService.cs)      
+>>-[UserService.cs](NetTestDAL\UserService.cs)   
 >
 >-NetTsetModel __实体类库层__   
->>-[ModerClass.cs](NetTestModel/ModelClass.cs)   
->>-[TsetClass.cs](NetTestModel/TestClass.cs)   
->>-[UserClass.cs](NetTestModel/UserClass.cs)   
+>>-[ModerClass.cs](NetTestModel\ModelClass.cs)   
+>>-[TsetClass.cs](NetTestModel\TestClass.cs)   
+>>-[UserClass.cs](NetTestModel\UserClass.cs)   
 >
 >-NerTsetServer   __表现层__   
->>-[INetTestService.cs](NetTestServer/INetTestService.cs)   
->>-[NetTestService.cs](NetTestServer/NetTestServer.cs)    
->>-[Program.cs](NetTestServer/Program.cs)   
+>>-[INetTestService.cs](NetTestServer\INetTestService.cs)   
+>>-[NetTestService.cs](NetTestServer\NetTestServer.cs)    
+>>-[Program.cs](NetTestServer\Program.cs)   
 
 NetTestClient(客户端)   
 >NetTestClient __(客户端)__
->>[App.xaml](NetTestClient/App.xaml)   
->>[App.xaml.cs](NetTestClient/App.xaml.cs)   
->>[MainWindow.xaml](NetTestClient/MainWindow.xaml)   
->>[MainWindow.xaml.cs](NetTestClient/MainWindow.xaml.cs)   
->>[Option.xaml](NetTestClient/Option.xaml)   
->>[Option.xaml.cs](NetTestClient/Option.xaml.cs)   
->>[AddQuestionWindow.xaml](NetTestClient/AddQuestionWindow.xaml)   
->>[AddQuestionWindow.xaml.cs](NetTestClient/AddQuestionWindow.xaml.cs)   
->>[UpdateQuestionWindow.xaml](NetTestClient/UpdateQuestionWindow.xaml)   
->>[UpdateQuestionWindow.xaml.cs](NetTestClient/UpdateQuestionWindow.xaml.cs)   
->>[DeleteQuestionWindow.xaml](NetTestClient/DeleteQuestionWindow.xaml)   
->>[DeleteQuestionWindow.xaml.cs](NetTestClient/DeleteQuestionWindow.xaml.cs)   
->>[ExerciseWindow.xaml](NetTestClient/ExerciseWindow.xaml)   
->>[ExerciseWindow.xaml.cs](NetTestClient/ExerciseWindow.xaml.cs)   
+>>[App.xaml](NetTestClient\App.xaml)   
+>>[App.xaml.cs](NetTestClient\App.xaml.cs)   
+>>[MainWindow.xaml](NetTestClient\MainWindow.xaml)   
+>>[MainWindow.xaml.cs](NetTestClient\MainWindow.xaml.cs)   
+>>[Option.xaml](NetTestClient\Option.xaml)   
+>>[Option.xaml.cs](NetTestClient\Option.xaml.cs)   
+>>[AddQuestionWindow.xaml](NetTestClient\AddQuestionWindow.xaml)   
+>>[AddQuestionWindow.xaml.cs](NetTestClient\AddQuestionWindow.xaml.cs)   
+>>[UpdateQuestionWindow.xaml](NetTestClient\UpdateQuestionWindow.xaml)   
+>>[UpdateQuestionWindow.xaml.cs](NetTestClient\UpdateQuestionWindow.xaml.cs)   
+>>[DeleteQuestionWindow.xaml](NetTestClient\DeleteQuestionWindow.xaml)   
+>>[DeleteQuestionWindow.xaml.cs](NetTestClient\DeleteQuestionWindow.xaml.cs)   
+>>[ExerciseWindow.xaml](NetTestClient\ExerciseWindow.xaml)   
+>>[ExerciseWindow.xaml.cs](NetTestClient\ExerciseWindow.xaml.cs)   
 
 ## 部署
 
