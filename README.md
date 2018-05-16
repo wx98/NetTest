@@ -8,15 +8,14 @@ Microsoft .Net Framework __Version 4.7.02556__
 数据库：__SQL Serve__
 
 ## 文件结构
-NetTestServer __(服务器端)__   
-
+NetTestServer __(服务器端)__    
 >+NetTestBLL __业务逻辑层__   
 >>-[NetTestManager.cs](/NetTestServer/NetTestBLL/TestManager.cs)   
 >>-[UserManager.cs](/NetTestServer/NetTestBLL/UserManager.cs)   
 >
 >+NetTestDAl __数据访问层__
 >>-[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)   
->>-[TestService.cs](/NetTestServer/NetTestDAL/TestService.cs)      
+>>-[TestService.cs](/NetTestServer/NetTestDAL/TestService.cs)    
 >>-[UserService.cs](/NetTestServer/NetTestDAL/UserService.cs)   
 >
 >+NetTsetModel __实体类库层__   
@@ -72,7 +71,6 @@ NetTestClient(客户端)
 >>是 __练习习题窗口__ 的布局文件     
 >>-[ExerciseWindow.xaml.cs](/NetTestClient/NetTestClient/ExerciseWindow.xaml.cs)   
 >>用于 __练习习题窗口__ 窗口的事件函数以及一些处算法逻辑     
->
 
 ## 部署
 
