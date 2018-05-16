@@ -13,22 +13,22 @@ namespace NetTestSever
     // 注意: 使用“重构”菜单上的“重命名”命令，可以同时更改代码和配置文件中的类名“NetTestService”。
     public class NetTestService : INetTestService
     {
-        
+
         public string login(UserClass user)
         {
             UserManager manager = new UserManager();
             return manager.login(user);
         }
-        
+
         UserClass getUser()
         {
-           
+
             String uName = OperationContext.Current.IncomingMessageHeaders.GetHeader<String>("uName", "MySpace");
             String uPass = OperationContext.Current.IncomingMessageHeaders.GetHeader<String>("uPass", "MySpace");
             return new UserClass { uName = uName, uPass = uPass };
         }
 
-        public TestClass addTest(TestClass test) 
+        public TestClass addTest(TestClass test)
         {
             TestManager manager = new TestManager();
             manager.addTest(getUser(), ref test);
@@ -57,6 +57,7 @@ namespace NetTestSever
             TestManager manager = new TestManager();
             return manager.getUserTestDataTable(getUser());
         }
+        
         public int setUserMark(int mValue)
         {
             TestManager manager = new TestManager();
