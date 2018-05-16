@@ -9,59 +9,74 @@ Microsoft .Net Framework __Version 4.7.02556__
 
 ## 文件结构
 NetTestServer __(服务器端)__   
+
 >+NetTestBLL __业务逻辑层__   
 >>-[NetTestManager.cs](/NetTestServer/NetTestBLL/TestManager.cs)   
 >>-[UserManager.cs](/NetTestServer/NetTestBLL/UserManager.cs)   
->+NetTestDAl __数据访问层__
 >
+>+NetTestDAl __数据访问层__
 >>-[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)   
 >>-[TestService.cs](/NetTestServer/NetTestDAL/TestService.cs)      
 >>-[UserService.cs](/NetTestServer/NetTestDAL/UserService.cs)   
->+NetTsetModel __实体类库层__   
 >
+>+NetTsetModel __实体类库层__   
 >>-[ModerClass.cs](/NetTestServer/NetTestModel/ModelClass.cs)   
 >>-[TsetClass.cs](/NetTestServer/NetTestModel/TestClass.cs)   
 >>-[UserClass.cs](/NetTestServer/NetTestModel/UserClass.cs)   
->+NerTsetServer __表现层__   
 >
+>+NerTsetServer __表现层__   
 >>-[INetTestService.cs](/NetTestServer/NetTestServer/INetTestService.cs)   
 >>-[NetTestService.cs](/NetTestServer/NetTestServer/NetTestService.cs)   
 >>-[Program.cs](/NetTestServer/NetTestServer/Program.cs)   
 
-NetTestClient(客户端)   
+NetTestClient(客户端)     
 >+NetTestClient __(客户端)__    
 >
->>-[App.xaml](/NetTestClient/NetTestClient/App.xaml) 文件是程序的起点，定义全局资源，他们可以在整个应援里被访问   
->>-[App.xaml.cs](/NetTestClient/NetTestClient/App.xaml.cs) 是扩展了应用类，它是WPF窗口应用的中心类   
+>>-[App.xaml](/NetTestClient/NetTestClient/App.xaml)    
+>>文件是程序的起点，定义全局资源，他们可以在整个应援里被访问   
+>>-[App.xaml.cs](/NetTestClient/NetTestClient/App.xaml.cs)    
+>>是扩展了应用类，它是WPF窗口应用的中心类   
 >
 >__登录界面__
->>-[MainWindow.xaml](/NetTestClient/NetTestClient/MainWindow.xaml) 是 __登录界面__ 的布局文件   
->>-[MainWindow.xaml.cs](/NetTestClient/NetTestClient/MainWindow.xaml.cs) 是 __登录界面__ 的代码隐藏文件。其中有用于处理登录的事件    
+>>-[MainWindow.xaml](/NetTestClient/NetTestClient/MainWindow.xaml)   
+>>是 __登录界面__ 的布局文件   
+>>-[MainWindow.xaml.cs](/NetTestClient/NetTestClient/MainWindow.xaml.cs)   
+>>是 __登录界面__ 的代码隐藏文件。其中有用于处理登录的事件    
 >
 >__功能选择窗口__
->>-[Option.xaml](/NetTestClient/NetTestClient/Option.xaml)是 __功能选择窗口__ 的布局文件    
->>-[Option.xaml.cs](/NetTestClient/NetTestClient/Option.xaml.cs) 文件用于定义 __功能选择窗口__ 上按钮的事件   
+>>-[Option.xaml](/NetTestClient/NetTestClient/Option.xaml)   
+>>是 __功能选择窗口__ 的布局文件    
+>>-[Option.xaml.cs](/NetTestClient/NetTestClient/Option.xaml.cs)   
+>>文件用于定义 __功能选择窗口__ 上按钮的事件   
 >
 >__习题添加窗口__
->>-[AddQuestionWindow.xaml](/NetTestClient/NetTestClient/AddQuestionWindow.xaml) 是 __习题添加窗口__ 的布局文件    
->>-[AddQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/AddQuestionWindow.xaml.cs) 用于定义 __习题添加窗口__  窗口的事件函数以及一些处算法逻辑   
+>>-[AddQuestionWindow.xaml](/NetTestClient/NetTestClient/AddQuestionWindow.xaml)   
+>>是 __习题添加窗口__ 的布局文件    
+>>-[AddQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/AddQuestionWindow.xaml.cs)   
+>>用于定义 __习题添加窗口__  窗口的事件函数以及一些处算法逻辑   
 >
 >__习题更新窗口__
->>-[UpdateQuestionWindow.xaml](/NetTestClient/NetTestClient/UpdateQuestionWindow.xaml) 是 __习题更新窗口__ 的布局文件     
->>-[UpdateQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/UpdateQuestionWindow.xaml.cs)  用于定义 __习题更新窗口__  窗口的事件函数以及一些处算法逻辑   
+>>-[UpdateQuestionWindow.xaml](/NetTestClient/NetTestClient/UpdateQuestionWindow.xaml)   
+>>是 __习题更新窗口__ 的布局文件     
+>>-[UpdateQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/UpdateQuestionWindow.xaml.cs)   
+>>用于定义 __习题更新窗口__  窗口的事件函数以及一些处算法逻辑   
 >
 >__习题删除窗口__   
->>-[DeleteQuestionWindow.xaml](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml) 是 __习题删除窗口__ 的布局文件   
->>-[DeleteQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml.cs) 用于定义 __习题删除窗口__  窗口的事件函数以及一些处算法逻辑   
+>>-[DeleteQuestionWindow.xaml](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml)    
+>>是 __习题删除窗口__ 的布局文件   
+>>-[DeleteQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml.cs)   
+>>用于定义 __习题删除窗口__  窗口的事件函数以及一些处算法逻辑   
 >    
 >__习题练习窗口__   
->>-[ExerciseWindow.xaml](/NetTestClient/NetTestClient/ExerciseWindow.xaml) 是 __练习习题窗口__ 的布局文件     
->>-[ExerciseWindow.xaml.cs](/NetTestClient/NetTestClient/ExerciseWindow.xaml.cs) 用于 __练习习题窗口__ 窗口的事件函数以及一些处算法逻辑     
+>>-[ExerciseWindow.xaml](/NetTestClient/NetTestClient/ExerciseWindow.xaml)   
+>>是 __练习习题窗口__ 的布局文件     
+>>-[ExerciseWindow.xaml.cs](/NetTestClient/NetTestClient/ExerciseWindow.xaml.cs)   
+>>用于 __练习习题窗口__ 窗口的事件函数以及一些处算法逻辑     
 >
 
 ## 部署
 
-## MIT License
+MIT License
 ======
 Copyright (c) 2018 wx98
 
