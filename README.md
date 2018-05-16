@@ -7,6 +7,7 @@
 Microsoft .Net Framework __Version 4.7.02556__    
 数据库：__SQL serve__
 
+
 ## 文件结构
 NetTestServer __(服务器端)__   
 >-NetTestBLL __业务逻辑层__   
@@ -25,7 +26,7 @@ NetTestServer __(服务器端)__
 >
 >-NerTsetServer   __表现层__   
 >>-[INetTestService.cs](/NetTestServer/NetTestServer/INetTestService.cs)   
->>-[NetTestService.cs](/NetTestServer/NetTestServer/NetTestServer.cs)    
+>>-[NetTestService.cs](/NetTestServer/NetTestServer/NetTestService.cs)    
 >>-[Program.cs](/NetTestServer/NetTestServer/Program.cs)   
 
 NetTestClient(客户端)   
