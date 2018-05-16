@@ -17,17 +17,21 @@ namespace NetTestSever
 
         [OperationContract]
         string login(UserClass user);
+
         [OperationContract]
         TestClass addTest(TestClass tset);
 
         [OperationContract]
         DataTable getTestDataTable();
+
         [OperationContract]
         bool deleteTest(TestClass test);
-
+        [OperationContract]
+        void updateTest(TestClass test);
 
         [OperationContract]
         DataTable getUserTestDataTable();
+
         [OperationContract]
         int setUserMark(int mValue);
 

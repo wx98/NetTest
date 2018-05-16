@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Option" Height="350" Width="525" WindowStartupLocation="CenterScreen">
     <Grid>
-        <StackPanel Name="panel" Orientation="Horizontal" HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <StackPanel Name="panel" Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="0">
             <Button x:Name="btAdd" Content="试题记录增加"
                  HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Add_Question_Click"
                  Margin="10,10,0,0" Height="23" Width="100" />
@@ -16,6 +20,11 @@
             <Button x:Name="btExercise" Content="用户试题练习"
                  HorizontalAlignment="Center" VerticalAlignment="Center"  Click="Exercise_Question_Click"
                  Margin="10,10,10,0" Height="23" Width="100" />
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Button x:Name="btlogin" Content="切换用户"
+                 HorizontalAlignment="Right"  Click="btlogin_Click"
+                 Margin="0,0,0,0" Height="20" Width="100" />
         </StackPanel>
     </Grid>
 </Window>

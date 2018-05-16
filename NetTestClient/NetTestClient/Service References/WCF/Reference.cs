@@ -219,6 +219,14 @@ namespace NetTestClient.WCF {
         
         bool EnddeleteTest(System.IAsyncResult result);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/INetTestService/updateTest", ReplyAction="http://tempuri.org/INetTestService/updateTestResponse")]
+        void updateTest(NetTestClient.WCF.TestClass test);
+        
+        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/INetTestService/updateTest", ReplyAction="http://tempuri.org/INetTestService/updateTestResponse")]
+        System.IAsyncResult BeginupdateTest(NetTestClient.WCF.TestClass test, System.AsyncCallback callback, object asyncState);
+        
+        void EndupdateTest(System.IAsyncResult result);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/INetTestService/getUserTestDataTable", ReplyAction="http://tempuri.org/INetTestService/getUserTestDataTableResponse")]
         System.Data.DataTable getUserTestDataTable();
         
@@ -382,6 +390,12 @@ namespace NetTestClient.WCF {
         
         private System.Threading.SendOrPostCallback ondeleteTestCompletedDelegate;
         
+        private BeginOperationDelegate onBeginupdateTestDelegate;
+        
+        private EndOperationDelegate onEndupdateTestDelegate;
+        
+        private System.Threading.SendOrPostCallback onupdateTestCompletedDelegate;
+        
         private BeginOperationDelegate onBegingetUserTestDataTableDelegate;
         
         private EndOperationDelegate onEndgetUserTestDataTableDelegate;
@@ -420,6 +434,8 @@ namespace NetTestClient.WCF {
         public event System.EventHandler<getTestDataTableCompletedEventArgs> getTestDataTableCompleted;
         
         public event System.EventHandler<deleteTestCompletedEventArgs> deleteTestCompleted;
+        
+        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> updateTestCompleted;
         
         public event System.EventHandler<getUserTestDataTableCompletedEventArgs> getUserTestDataTableCompleted;
         
@@ -621,6 +637,55 @@ namespace NetTestClient.WCF {
             }
             base.InvokeAsync(this.onBegindeleteTestDelegate, new object[] {
                         test}, this.onEnddeleteTestDelegate, this.ondeleteTestCompletedDelegate, userState);
+        }
+        
+        public void updateTest(NetTestClient.WCF.TestClass test) {
+            base.Channel.updateTest(test);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        public System.IAsyncResult BeginupdateTest(NetTestClient.WCF.TestClass test, System.AsyncCallback callback, object asyncState) {
+            return base.Channel.BeginupdateTest(test, callback, asyncState);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        public void EndupdateTest(System.IAsyncResult result) {
+            base.Channel.EndupdateTest(result);
+        }
+        
+        private System.IAsyncResult OnBeginupdateTest(object[] inValues, System.AsyncCallback callback, object asyncState) {
+            NetTestClient.WCF.TestClass test = ((NetTestClient.WCF.TestClass)(inValues[0]));
+            return this.BeginupdateTest(test, callback, asyncState);
+        }
+        
+        private object[] OnEndupdateTest(System.IAsyncResult result) {
+            this.EndupdateTest(result);
+            return null;
+        }
+        
+        private void OnupdateTestCompleted(object state) {
+            if ((this.updateTestCompleted != null)) {
+                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+                this.updateTestCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+            }
+        }
+        
+        public void updateTestAsync(NetTestClient.WCF.TestClass test) {
+            this.updateTestAsync(test, null);
+        }
+        
+        public void updateTestAsync(NetTestClient.WCF.TestClass test, object userState) {
+            if ((this.onBeginupdateTestDelegate == null)) {
+                this.onBeginupdateTestDelegate = new BeginOperationDelegate(this.OnBeginupdateTest);
+            }
+            if ((this.onEndupdateTestDelegate == null)) {
+                this.onEndupdateTestDelegate = new EndOperationDelegate(this.OnEndupdateTest);
+            }
+            if ((this.onupdateTestCompletedDelegate == null)) {
+                this.onupdateTestCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnupdateTestCompleted);
+            }
+            base.InvokeAsync(this.onBeginupdateTestDelegate, new object[] {
+                        test}, this.onEndupdateTestDelegate, this.onupdateTestCompletedDelegate, userState);
         }
         
         public System.Data.DataTable getUserTestDataTable() {

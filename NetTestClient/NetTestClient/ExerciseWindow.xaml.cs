@@ -23,13 +23,6 @@ namespace NetTestClient
     /// ExerciseWindow.xaml 的交互逻辑
     /// </summary>
     /// 
-    public class AnswerClass : List<String>
-    {
-        public AnswerClass()
-        {
-            Add("A"); Add("B"); Add("C"); Add("D");
-        }
-    }
     public partial class ExerciseWindow : Window
     {
         WCF.NetTestServiceClient client = new WCF.NetTestServiceClient();
@@ -94,41 +87,44 @@ namespace NetTestClient
                 txtText.DataContext = null;
             }
         }
+       
         private void btHandleTest_Click(object sender, RoutedEventArgs e)
         {
-            int mValue = 0;
-            foreach (DataRow row in dt.Rows)
+            MessageBoxResult dr = MessageBox.Show("确定提交答案吗?", "提示", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+            if (dr == MessageBoxResult.OK)
             {
-                if (row["tAnswer"].ToString() == row["uAnswer"].ToString())
-                    ++mValue;
-            }
-            msg.Text = "成绩:" + mValue.ToString();
-            btHandleTest.IsEnabled = true;
-            String uName =  Get_Info.User;
-            String uPass = Get_Info.Pass;
-            if (uName != "" && uPass != "")
-            {
-                try
+                int mValue = 0;
+                foreach (DataRow row in dt.Rows)
                 {
-                    uPass = encryptString(uPass);
-                    using (OperationContextScope scope = new OperationContextScope(client.InnerChannel))
+                    if (row["tAnswer"].ToString() == row["uAnswer"].ToString())
+                        ++mValue;
+                }
+                msg.Text = "成绩:" + mValue.ToString();
+                btHandleTest.IsEnabled = true;
+                String uName = Get_Info.User;
+                String uPass = Get_Info.Pass;
+                if (uName != "" && uPass != "")
+                {
+                    try
                     {
-                        MessageHeader user = MessageHeader.CreateHeader("uName", "MySpace", uName);
-                        MessageHeader pass = MessageHeader.CreateHeader("uPass", "MySpace", uPass);
-                        OperationContext.Current.OutgoingMessageHeaders.Add(user);
-                        OperationContext.Current.OutgoingMessageHeaders.Add(pass);
-                        client.setUserMarkAsync(mValue);
+                        uPass = encryptString(uPass);
+                        using (OperationContextScope scope = new OperationContextScope(client.InnerChannel))
+                        {
+                            MessageHeader user = MessageHeader.CreateHeader("uName", "MySpace", uName);
+                            MessageHeader pass = MessageHeader.CreateHeader("uPass", "MySpace", uPass);
+                            OperationContext.Current.OutgoingMessageHeaders.Add(user);
+                            OperationContext.Current.OutgoingMessageHeaders.Add(pass);
+                            client.setUserMarkAsync(mValue);
+                        }
+                    }
+                    catch (Exception exp)
+                    {
+                        showMsg(exp.Message);
                     }
                 }
-                catch (Exception exp)
-                {
-                    showMsg(exp.Message);
-                }
             }
-            
         }
         
-
         private void btGetTest_Click(object sender, RoutedEventArgs e)
         {
             String uName = Get_Info.User;

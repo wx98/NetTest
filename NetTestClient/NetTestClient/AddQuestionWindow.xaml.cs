@@ -64,6 +64,8 @@ namespace NetTestClient
 
         private void btUpLoad_Click(object sender, RoutedEventArgs e)
         {
+            JudgmentClass judgment = new JudgmentClass();
+            if (judgment.Judgment("确定上传新试题吗") != true) { return; }
             String uName = Get_Info.User;
             String uPass = Get_Info.Pass;
             String tTitle = txtTitle.Text.Trim();

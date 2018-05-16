@@ -53,11 +53,11 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe.config
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.exe
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestServer.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.dll
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestModel.dll
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.pdb
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestModel.pdb
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.exe
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\obj\Debug\NetTestServer.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.dll
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestDAL.pdb
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestServer\NetTestServer\bin\Debug\NetTestBLL.dll

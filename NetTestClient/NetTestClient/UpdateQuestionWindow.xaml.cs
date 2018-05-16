@@ -18,38 +18,36 @@ using System.Windows.Shapes;
 
 namespace NetTestClient
 {
+   
     /// <summary>
-    /// DeleteQuestionWindow.xaml 的交互逻辑
+    /// UpdateQuestionWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class DeleteQuestionWindow : Window
+    public partial class UpdateQuestionWindow : Window
     {
         WCF.NetTestServiceClient client = new WCF.NetTestServiceClient();
         string url = "http://localhost:8889/NetTestService/";
         DataTable dt;
         DataView dv;
-        public DeleteQuestionWindow()
+        public UpdateQuestionWindow()
         {
             InitializeComponent();
             client = new WCF.NetTestServiceClient();
             client.getTestDataTableCompleted += client_getTestDataTableCompleted;
-            client.deleteTestCompleted +=client_deleteTestCompleted;
+            client.updateTestCompleted += client_updateTestCompleted;
             client.Endpoint.Address = new System.ServiceModel.EndpointAddress(new Uri(url, UriKind.Absolute));
-            
         }
-
-        void client_deleteTestCompleted(object sender ,WCF.deleteTestCompletedEventArgs e)
+        void client_updateTestCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
         {
             if (e.Error == null)
             {
-                DataRow row = dt.AsEnumerable().FirstOrDefault(x => (int)x["ID"] == (int)e.UserState);
-                if (row != null)
-                {
-                    row.Delete();
-                    row.AcceptChanges();
-                }
+                dt.AcceptChanges();
             }
-            else showMsg(e.Error.Message);
+            else
+            {
+                showMsg(e.Error.Message);
+            }
         }
+
         void client_getTestDataTableCompleted(object sender, WCF.getTestDataTableCompletedEventArgs e)
         {
             if (e.Error == null)
@@ -92,12 +90,13 @@ namespace NetTestClient
                         client.getTestDataTableAsync();
                     }
                 }
-                catch(Exception exp)
+                catch (Exception exp)
                 {
                     showMsg(exp.Message);
                 }
             }
         }
+
         private void uGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (uGrid.SelectedIndex >= 0)
@@ -106,14 +105,20 @@ namespace NetTestClient
             }
             else txtText.DataContext = null;
         }
-        private void btDeleteTest_Click(object sender, RoutedEventArgs e)
+
+        private void btUpdateTest_Click(object sender, RoutedEventArgs e)
         {
             JudgmentClass judgment = new JudgmentClass();
-            if (judgment.Judgment("要删除试题记录吗") != true){ return; }
+            if (judgment.Judgment("确定提交更新吗？") != true) { return; }
             if (uGrid.SelectedIndex >= 0)
             {
                 int index = uGrid.SelectedIndex;
-                WCF.TestClass test = new WCF.TestClass { ID = (int)dv[index]["ID"] };
+                WCF.TestClass test = new WCF.TestClass { 
+                    ID = (int)dv[index]["ID"],
+                    tTitle = dv[index]["tTitle"].ToString(),
+                    tAnswer = dv[index]["tAnswer"].ToString(),
+                    tText = dv[index]["tText"].ToString()
+                };
                 String uName = Get_Info.User;
                 String uPass = Get_Info.Pass;
                 if (uName != "" && uPass != "")
@@ -127,7 +132,7 @@ namespace NetTestClient
                             MessageHeader pass = MessageHeader.CreateHeader("uPass", "MySpace", uPass);
                             OperationContext.Current.OutgoingMessageHeaders.Add(user);
                             OperationContext.Current.OutgoingMessageHeaders.Add(pass);
-                            client.deleteTestAsync(test, test.ID);
+                            client.updateTestAsync(test, test.ID);
                         }
                     }
                     catch (Exception exp)

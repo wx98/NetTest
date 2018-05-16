@@ -103,6 +103,31 @@ namespace NetTestDAL
             return flag;
         }
 
+        //updateTest()
+        //试题记录更新函数
+        public void updateTest(UserClass user, TestClass test)
+        {
+            using (SqlConnection con = new SqlConnection(DBHelper.conString))
+            {
+                DBHelper DB = new DBHelper(con);
+                if (verifyAdmin(DB, user))
+                {
+                    test.tDate = DateTime.UtcNow.ToString("yyy-MM-dd HH:mm:ss");
+                    SqlParameter pDate = new SqlParameter("@tDate", SqlDbType.Char);
+                    pDate.Value = test.tDate;//DateTime.Now.ToString("yyy-MM-dd HH:mm:ss");
+                    SqlParameter pTitle = new SqlParameter("@tTitle", SqlDbType.Char);
+                    pTitle.Value = test.tTitle;
+                    SqlParameter pText = new SqlParameter("@tText", SqlDbType.Text);
+                    pText.Value = test.tText;
+                    SqlParameter pAnswer = new SqlParameter("@tAnswer", SqlDbType.Char);
+                    pAnswer.Value = test.tAnswer;
+                    DB.executeCommand("update tests set tDate = @tDate,tTitle = @tTitle,tText = @tText,tAnswer = @tAnswer where ID = "+test.ID.ToString(), pDate, pTitle, pText, pAnswer);
+                }
+                con.Close();
+            }
+        }
+
+
         //getUserTestDataTable()
         //随机获得10个试题表函数
         public DataTable getUserTestDataTable(UserClass user)
@@ -151,6 +176,6 @@ namespace NetTestDAL
             return flag;
         }
 
-
+        
     }
 }

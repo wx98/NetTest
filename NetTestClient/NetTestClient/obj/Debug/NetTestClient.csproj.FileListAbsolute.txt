@@ -91,3 +91,5 @@ D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\ExerciseWindow.g.cs
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\NetTestClient_MarkupCompile.lref
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\UpdateQuestionWindow.baml
+D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\UpdateQuestionWindow.g.cs

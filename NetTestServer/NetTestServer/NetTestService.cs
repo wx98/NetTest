@@ -46,6 +46,12 @@ namespace NetTestSever
             return manager.deleteTest(getUser(), test);
         }
 
+        public void updateTest(TestClass test)
+        {
+            TestManager manager = new TestManager();
+            manager.updateTest(getUser(),test);
+        }
+
         public DataTable getUserTestDataTable()
         {
             TestManager manager = new TestManager();

@@ -49,13 +49,23 @@ namespace NetTestClient
 
         private void Update_Question_Click(object sender, RoutedEventArgs e)
         {
-
+            UpdateQuestionWindow updatewindow = new UpdateQuestionWindow();
+            updatewindow.ShowDialog();
         }
 
         private void Exercise_Question_Click(object sender, RoutedEventArgs e)
         {
             ExerciseWindow exercisewindow = new ExerciseWindow();
             exercisewindow.ShowDialog();
+        }
+
+        private void btlogin_Click(object sender, RoutedEventArgs e)
+        {
+            JudgmentClass judgment = new JudgmentClass();
+            if (judgment.Judgment("要切换用户吗") != true) { return; }
+            MainWindow mainwindow = new MainWindow();
+            mainwindow.Show();
+            this.Close();
         }
 
         

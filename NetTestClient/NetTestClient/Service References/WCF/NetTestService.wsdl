@@ -32,6 +32,12 @@
   <wsdl:message name="INetTestService_deleteTest_OutputMessage">
     <wsdl:part name="parameters" element="tns:deleteTestResponse" />
   </wsdl:message>
+  <wsdl:message name="INetTestService_updateTest_InputMessage">
+    <wsdl:part name="parameters" element="tns:updateTest" />
+  </wsdl:message>
+  <wsdl:message name="INetTestService_updateTest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateTestResponse" />
+  </wsdl:message>
   <wsdl:message name="INetTestService_getUserTestDataTable_InputMessage">
     <wsdl:part name="parameters" element="tns:getUserTestDataTable" />
   </wsdl:message>
@@ -60,6 +66,10 @@
     <wsdl:operation name="deleteTest">
       <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/deleteTest" message="tns:INetTestService_deleteTest_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/INetTestService/deleteTestResponse" message="tns:INetTestService_deleteTest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updateTest">
+      <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/updateTest" message="tns:INetTestService_updateTest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INetTestService/updateTestResponse" message="tns:INetTestService_updateTest_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="getUserTestDataTable">
       <wsdl:input wsaw:Action="http://tempuri.org/INetTestService/getUserTestDataTable" message="tns:INetTestService_getUserTestDataTable_InputMessage" />
@@ -101,6 +111,15 @@
     </wsdl:operation>
     <wsdl:operation name="deleteTest">
       <soap:operation soapAction="http://tempuri.org/INetTestService/deleteTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateTest">
+      <soap:operation soapAction="http://tempuri.org/INetTestService/updateTest" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

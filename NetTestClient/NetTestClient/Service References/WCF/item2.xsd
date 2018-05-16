@@ -67,6 +67,18 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="updateTest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/NetTestModel" minOccurs="0" name="test" nillable="true" type="q5:TestClass" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updateTestResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
   <xs:element name="getUserTestDataTable">
     <xs:complexType>
       <xs:sequence />

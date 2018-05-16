@@ -27,4 +27,31 @@ namespace NetTestClient
             set { _pass = value;}
         }
     }
+    public class AnswerClass : List<String>
+    {
+        public AnswerClass()
+        {
+            Add("A");
+            Add("B");
+            Add("C");
+            Add("D");
+        }
+    }
+    public class JudgmentClass
+    {
+        bool flag = false;
+        public bool Judgment(String txt)
+        {
+            MessageBoxResult dr = MessageBox.Show(txt, "提示", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+            if (dr == MessageBoxResult.OK)
+            {
+                return flag = true;
+            }
+            else
+            {
+                return flag = false;
+            }
+        }
+        
+    }
 }
