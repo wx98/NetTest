@@ -49,15 +49,14 @@ NetTestClient(客户端)
 >>
 >>-[UpdateQuestionWindow.xaml](/NetTestClient/NetTestClient/UpdateQuestionWindow.xaml) 是 __习题更新窗口__ 的布局文件     
 >>-[UpdateQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/UpdateQuestionWindow.xaml.cs)  用于定义 __习题更新窗口__  窗口的事件函数以及一些处算法逻辑   
->>
 >>>__习题删除窗口__
->>-[DeleteQuestionWindow.xaml](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml) 是 __习题删除窗口__ 的布局文件        
+>>
+>>-[DeleteQuestionWindow.xaml](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml) 是 __习题删除窗口__ 的布局文件   
 >>-[DeleteQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml.cs) 用于定义 __习题删除窗口__  窗口的事件函数以及一些处算法逻辑     
->>>__练习习题窗口__
+>>>__习题练习窗口__
 >>
 >>-[ExerciseWindow.xaml](/NetTestClient/NetTestClient/ExerciseWindow.xaml) 是 __练习习题窗口__ 的布局文件     
 >>-[ExerciseWindow.xaml.cs](/NetTestClient/NetTestClient/ExerciseWindow.xaml.cs) 用于 __练习习题窗口__ 窗口的事件函数以及一些处算法逻辑     
->>
 
 ## 部署
 
