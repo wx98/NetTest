@@ -4,7 +4,7 @@
 ## 支持的环境
 系统：__windows__   
 本项目在  __Microsoft Visual Studio Ultimate 2012__  编译通过   
-Microsoft .Net Framework __Version 4.7.02556__
+Microsoft .Net Framework __Version 4.7.02556__    
 数据库：__SQL serve__
 
 ## 文件结构
@@ -30,20 +30,20 @@ NetTestServer
 
 NetTestClient
 >NetTestClient
->>App.xaml
->>App.xaml.cs
->>-MainWindow.xaml
->>-MainWindow.xaml.cs
->>Option.xaml
->>Option.xaml.cs
->>AddQuestionWindow.xaml
->>AddQuestionWindow.xaml.cs
->>UpdateQuestionWindow.xaml
->>UpdateQuestionWindow.xaml.cs
->>DeleteQuestionWindow.xaml
->>DeleteQuestionWindow.xaml.cs
->>ExerciseWindow.xaml
->>ExerciseWindow.xaml.cs
+>>App.xaml   
+>>App.xaml.cs   
+>>-MainWindow.xaml   
+>>-MainWindow.xaml.cs   
+>>Option.xaml   
+>>Option.xaml.cs   
+>>AddQuestionWindow.xaml   
+>>AddQuestionWindow.xaml.cs   
+>>UpdateQuestionWindow.xaml   
+>>UpdateQuestionWindow.xaml.cs   
+>>DeleteQuestionWindow.xaml   
+>>DeleteQuestionWindow.xaml.cs   
+>>ExerciseWindow.xaml   
+>>ExerciseWindow.xaml.cs   
 
 ## 部署
 
