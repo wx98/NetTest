@@ -10,8 +10,8 @@ Microsoft .Net Framework __Version 4.7.02556__
 ## 文件结构
 NetTestServer __(服务器端)__   
 >-NetTestBLL __业务逻辑层__   
->>-[NetTestManager.cs](NetTestServer\NetTestBLL\\TestManager.cs)    
->>-[UserManager.cs](NetTestServer\NetTestBLL\\UserManager.cs)   
+>>-[NetTestManager.cs](//NetTestServer//NetTestBLL//TestManager.cs)    
+>>-[UserManager.cs](/NetTestServer/NetTestBLL/UserManager.cs)   
 >
 >-NetTestDAl __数据访问层__   
 >>-[DBHelper.cs](\NetTestServer\NetTestDAL\\DBHelper.cs)   
