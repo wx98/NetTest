@@ -10,7 +10,7 @@ Microsoft .Net Framework __Version 4.7.02556__
 ## 文件结构
 NetTestServer __(服务器端)__    
 >+NetTestBLL __业务逻辑层__   
->>-[NetTestManager.cs](/NetTestServer/NetTestBLL/TestManager.cs)   
+>>-[NetTestManager.cs](/NetTestServer/NetTestBLL/TestManager.cs)      
 >>-[UserManager.cs](/NetTestServer/NetTestBLL/UserManager.cs)   
 >
 >+NetTestDAl __数据访问层__
@@ -43,8 +43,8 @@ NetTestClient(客户端)
 >>是 __登录界面__ 的代码隐藏文件。其中有用于处理登录的事件    
 >
 >__功能选择窗口__
->>-[Option.xaml](/NetTestClient/NetTestClient/Option.xaml)   
->>是 __功能选择窗口__ 的布局文件    
+>>-[Option.xaml](/NetTestClient/NetTestClient/Option.xaml)
+>>是 __功能选择窗口__ 的布局文件   
 >>-[Option.xaml.cs](/NetTestClient/NetTestClient/Option.xaml.cs)   
 >>文件用于定义 __功能选择窗口__ 上按钮的事件   
 >
@@ -61,18 +61,19 @@ NetTestClient(客户端)
 >>用于定义 __习题更新窗口__  窗口的事件函数以及一些处算法逻辑   
 >
 >__习题删除窗口__   
->>-[DeleteQuestionWindow.xaml](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml)    
+>>-[DeleteQuestionWindow.xaml](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml)   
 >>是 __习题删除窗口__ 的布局文件   
 >>-[DeleteQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml.cs)   
 >>用于定义 __习题删除窗口__  窗口的事件函数以及一些处算法逻辑   
 >    
 >__习题练习窗口__   
 >>-[ExerciseWindow.xaml](/NetTestClient/NetTestClient/ExerciseWindow.xaml)   
->>是 __练习习题窗口__ 的布局文件     
+>>是 __练习习题窗口__ 的布局文件  
 >>-[ExerciseWindow.xaml.cs](/NetTestClient/NetTestClient/ExerciseWindow.xaml.cs)   
 >>用于 __练习习题窗口__ 窗口的事件函数以及一些处算法逻辑     
 
 ## 部署
+
 
 MIT License
 ======
