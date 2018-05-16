@@ -6,20 +6,20 @@
 * 更新试题
 * 试题练习
 ## 支持的环境
-系统：__windows__   
-本项目在  __Microsoft Visual Studio Ultimate 2012__  编译通过   
-Microsoft .Net Framework __Version 4.7.02556__    
-数据库：__SQL Serve__
+系统：___Windows___   
+本项目在  ___Microsoft Visual Studio Ultimate 2012___  编译通过   
+Microsoft .Net Framework ___Version 4.7.02556___    
+数据库：___SQL Serve___
 
 ## 文件结构
 NetTestServer __(服务器端)__    
 >
->+NetTestBLL __业务逻辑层__   
+>+NetTestBLL ___业务逻辑层___   
 >>-[NetTestManager.cs](/NetTestServer/NetTestBLL/TestManager.cs)   
 >>-[UserManager.cs](/NetTestServer/NetTestBLL/UserManager.cs)   
 >>`对传送数据进行逻辑判断分折，并进行传送正确的值。`   
 >
->+NetTestDAl __数据访问层__   
+>+NetTestDAl ___数据访问层___   
 >>-[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)   
 >>`数据库的连接，一些基本访问函数`   
 >>-[TestService.cs](/NetTestServer/NetTestDAL/TestService.cs)    
@@ -27,13 +27,13 @@ NetTestServer __(服务器端)__
 >>-[UserService.cs](/NetTestServer/NetTestDAL/UserService.cs)     
 >>`对users表的操作，添加，查询`   
 >
->+NetTsetModel __实体类库层__   
+>+NetTsetModel ___实体类库层___   
 >>-[TsetClass.cs](/NetTestServer/NetTestModel/TestClass.cs)   
 >>`存放数据库 tests 表的字段`   
 >>-[UserClass.cs](/NetTestServer/NetTestModel/UserClass.cs)   
 >>`存放数据库 users 表的字段`  
 >
->+NerTsetServer __表现层__   
+>+NerTsetServer ___表现层___   
 >>-[INetTestService.cs](/NetTestServer/NetTestServer/INetTestService.cs)   
 >>`wcf服务的接口`   
 >>-[NetTestService.cs](/NetTestServer/NetTestServer/NetTestService.cs)    
@@ -41,8 +41,7 @@ NetTestServer __(服务器端)__
 >>-[Program.cs](/NetTestServer/NetTestServer/Program.cs)    
 >>`调用接口实现控制台程序c从而启动wcf服务`   
 
-NetTestClient(客户端)     
->+NetTestClient __(客户端)__    
++NetTestClient __(客户端)__     
 >
 >>-[App.xaml](/NetTestClient/NetTestClient/App.xaml)    
 >>`文件是程序的起点，定义全局资源，他们可以在整个应援里被访问 `  
@@ -51,46 +50,46 @@ NetTestClient(客户端)
 >
 >__登录界面__
 >>-[MainWindow.xaml](/NetTestClient/NetTestClient/MainWindow.xaml)   
->>`是 `__登录界面__` 的布局文件`   
+>>`是 `___登录界面___` 的布局文件`   
 >>-[MainWindow.xaml.cs](/NetTestClient/NetTestClient/MainWindow.xaml.cs)   
->>`是 `__登录界面__` 的代码隐藏文件。其中有用于处理登录的事件`    
+>>`是 `___登录界面___` 的代码隐藏文件。其中有用于处理登录的事件`    
 >
 >__功能选择窗口__
 >>-[Option.xaml](/NetTestClient/NetTestClient/Option.xaml)    
->>`是 `__功能选择窗口__` 的布局文件`   
+>>`是 `___功能选择窗口___` 的布局文件`   
 >>-[Option.xaml.cs](/NetTestClient/NetTestClient/Option.xaml.cs)   
->>`文件用于定义 `__功能选择窗口__` 上按钮的事件`   
+>>`文件用于定义 `___功能选择窗口___` 上按钮的事件`   
 >
 >__习题添加窗口__
 >>-[AddQuestionWindow.xaml](/NetTestClient/NetTestClient/AddQuestionWindow.xaml)   
->>`是 `__习题添加窗口__` 的布局文件`    
+>>`是 `___习题添加窗口___` 的布局文件`    
 >>-[AddQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/AddQuestionWindow.xaml.cs)   
->>`用于定义 `__习题添加窗口__`  窗口的事件函数以及一些处算法逻辑`   
+>>`用于定义 `___习题添加窗口___`  窗口的事件函数以及一些处算法逻辑`   
 >
 >__习题更新窗口__
 >>-[UpdateQuestionWindow.xaml](/NetTestClient/NetTestClient/UpdateQuestionWindow.xaml)   
->>`是 `__习题更新窗口__` 的布局文件`     
+>>`是 `___习题更新窗口___` 的布局文件`     
 >>-[UpdateQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/UpdateQuestionWindow.xaml.cs)   
->>`用于定义 `__习题更新窗口__`  窗口的事件函数以及一些处算法逻辑`   
+>>`用于定义 `___习题更新窗口___`  窗口的事件函数以及一些处算法逻辑`   
 >
 >__习题删除窗口__   
 >>-[DeleteQuestionWindow.xaml](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml)   
->>`是 `__习题删除窗口__` 的布局文件`   
+>>`是 `___习题删除窗口___` 的布局文件`   
 >>-[DeleteQuestionWindow.xaml.cs](/NetTestClient/NetTestClient/DeleteQuestionWindow.xaml.cs)   
->>`用于定义 `__习题删除窗口__`  窗口的事件函数以及一些处算法逻辑`   
+>>`用于定义 `___习题删除窗口___`  窗口的事件函数以及一些处算法逻辑`   
 >    
 >__习题练习窗口__   
 >>-[ExerciseWindow.xaml](/NetTestClient/NetTestClient/ExerciseWindow.xaml)   
->>`是 `__练习习题窗口__` 的布局文件`  
+>>`是 `___练习习题窗口___` 的布局文件`  
 >>-[ExerciseWindow.xaml.cs](/NetTestClient/NetTestClient/ExerciseWindow.xaml.cs)   
->>`用于 `__练习习题窗口__` 窗口的事件函数以及一些处算法逻辑`
+>>`用于 `___练习习题窗口___` 窗口的事件函数以及一些处算法逻辑`
 
 ## 部署
 部署超级简单   
-1.数据库部分参考[NetTest_Database.sql](NetTestServer/NetTest_Database.sql)文件进行数据库创建。    
-2.连接数据库部分请更改[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)文件第15行~18行。      
-3.重新生成过后请用管理员身份运行[NetTestServer.exe](/NetTestServer/NetTestServer/bin/Debug/NetTestServer.exe)文件，作为服务器端。     
-4.请启动[NetTestClient.exe](/NetTestClient/NetTestClient/bin/Debug/NetTestClient.exe)作为客户端。  
+ 1. 数据库部分参考[NetTest_Database.sql](NetTestServer/NetTest_Database.sql)文件进行数据库创建。    
+ 2. 连接数据库部分请更改[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)文件第15行~18行。      
+ 3. 重新生成过后请用管理员身份运行[NetTestServer.exe](/NetTestServer/NetTestServer/bin/Debug/NetTestServer.exe)文件，作为服务器端。     
+ 4. 请启动[NetTestClient.exe](/NetTestClient/NetTestClient/bin/Debug/NetTestClient.exe)作为客户端。  
 
 MIT License
 ======
