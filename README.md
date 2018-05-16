@@ -9,25 +9,34 @@ Microsoft .Net Framework __Version 4.7.02556__
 
 ## 文件结构
 NetTestServer __(服务器端)__    
+>
 >+NetTestBLL __业务逻辑层__   
 >>-[NetTestManager.cs](/NetTestServer/NetTestBLL/TestManager.cs)   
->>   
 >>-[UserManager.cs](/NetTestServer/NetTestBLL/UserManager.cs)   
+>>`对传送数据进行逻辑判断分折，并进行传送正确的值。`
 >
->+NetTestDAl __数据访问层__
+>+NetTestDAl __数据访问层__   
 >>-[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)   
+>>`数据库的连接，一些基本访问函数`   
 >>-[TestService.cs](/NetTestServer/NetTestDAL/TestService.cs)    
+>>`对数据库表的一些基本操作，给tests添加新字段函数，删除tests字段函数,`
+>>`更新test字段函数,得到10条tests表记录函数，添加marks表字段函数`   
 >>-[UserService.cs](/NetTestServer/NetTestDAL/UserService.cs)   
+>>`对users表的操作，添加，查询`
 >
 >+NetTsetModel __实体类库层__   
->>-[ModerClass.cs](/NetTestServer/NetTestModel/ModelClass.cs)   
 >>-[TsetClass.cs](/NetTestServer/NetTestModel/TestClass.cs)   
+>>`存放数据库 tests 表的字段`   
 >>-[UserClass.cs](/NetTestServer/NetTestModel/UserClass.cs)   
+>>`存放数据库 users 表的字段`  
 >
 >+NerTsetServer __表现层__   
 >>-[INetTestService.cs](/NetTestServer/NetTestServer/INetTestService.cs)   
+>>`wcf服务的接口`
 >>-[NetTestService.cs](/NetTestServer/NetTestServer/NetTestService.cs)   
+>>`此处实现接口函数`
 >>-[Program.cs](/NetTestServer/NetTestServer/Program.cs)   
+>>`调用接口实现控制台程序c从而启动wcf服务`
 
 NetTestClient(客户端)     
 >+NetTestClient __(客户端)__    
