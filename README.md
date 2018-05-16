@@ -1,26 +1,28 @@
 # NetTest
-本项目是基于WCF（Windows Communication Foundatiomn）框架的试题练习程序
+本项目是基于WCF（Windows Communication Foundatiomn）框架的试题练习程序   
 功能：添加试题、删除试题、更新试题、试题练习.
-## 环境
-系统：Windows10、.Net Web
+## 支持的环境
+系统：windows
+本项目在 __Microsoft Visual Studio Ultimate 2012__ 编译通过   
+Microsoft .Net Framework __Version 4.7.02556__
+
 ## 文件结构
 NetTestServer
->-NetTestBLL
->>-NetTestManager.cs
->>-UserManager.cs
+>-NetTestBLL   
+>>-NetTestManager.cs   
+>>-UserManager.cs   
 >
->-NetTestDAl
->>-DBHelper.cs
->>TestService。cs
->>UserService.cs
+>-NetTestDAl   
+>>-DBHelper.cs   
+>>TestService。cs   
+>>UserService.cs   
 >
->-NetTsetModel
->>ModerClass.cs
->>TsetClass.cs
->>UserClass.cs
+>-NetTsetModel   
+>>ModerClass.cs   
+>>TsetClass.cs   
+>>UserClass.cs   
 
 ## 部署
-
 ----
 MIT License
 =======
