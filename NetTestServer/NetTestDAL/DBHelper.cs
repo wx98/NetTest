@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Forms;
 
 namespace NetTestDAL
 {
@@ -12,10 +12,10 @@ namespace NetTestDAL
     {
         /*数据库IP,用户名密码
           Database connection character*/
-        public static String Data_IP = "玖;";
-        public static String Data_UserName = "sa;";
-        public static String Data_UserPass = "123456;";
-        public static String Data_Base = "NetTest_Database;";
+        public static String Data_IP = OperFile.GetIniFileString("DataBase","Server","",Application.StartupPath + "\\DB_config.ini");//"stu32;";
+        public static String Data_UserName = OperFile.GetIniFileString("DataBase","UserName","",Application.StartupPath + "\\DB_config.ini");//"sa;";
+        public static String Data_UserPass = OperFile.GetIniFileString("DataBase","UserPass","",Application.StartupPath + "\\DB_config.ini");//sa;";
+        public static String Data_Base = OperFile.GetIniFileString("DataBase","DataBase","",Application.StartupPath + "\\DB_config.ini");//"NetTest;";
         public static String conString = "Database=" + Data_Base +"Server=" + Data_IP + "User ID=" + Data_UserName + "Password=" + Data_UserPass + ";";
         
         private SqlConnection con;

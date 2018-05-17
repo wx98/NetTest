@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\obj\Debug\
+C:\Users\sy\Desktop\NetTest-master\NetTestClient\NetTestClient\obj\Debug\
 NetTestClient
 none
 false
 DEBUG;TRACE
-D:\Engineering being done\GitHub\NetTest\NetTest\NetTestClient\NetTestClient\App.xaml
+C:\Users\sy\Desktop\NetTest-master\NetTestClient\NetTestClient\App.xaml
 6564934627
 
 11-415571596
-14-105585256
+14492023661
 AddQuestionWindow.xaml;DeleteQuestionWindow.xaml;ExerciseWindow.xaml;MainWindow.xaml;Option.xaml;UpdateQuestionWindow.xaml;
 
 False
