@@ -87,7 +87,11 @@ NetTestServer __(服务器端)__
 ## 部署
 部署超级简单   
  1. 数据库部分参考[NetTest_Database.sql](NetTestServer/NetTest_Database.sql)文件进行数据库创建。    
- 2. 连接数据库部分请更改[DBHelper.cs](/NetTestServer/NetTestDAL/DBHelper.cs)文件第15行~18行。      
+ 2. 连接数据库部分请更改[DB_config.ini](/NetTestServer/NetTestServer/bin/Debug/DB_config.ini)
+   Server=为数据库名称;
+   UserName=数据库用户名;
+   UserPass=用户名密码；
+   DataBase=数据库名称;
  3. 重新生成过后请用管理员身份运行[NetTestServer.exe](/NetTestServer/NetTestServer/bin/Debug/NetTestServer.exe)文件，作为服务器端。     
  4. 请启动[NetTestClient.exe](/NetTestClient/NetTestClient/bin/Debug/NetTestClient.exe)作为客户端。  
 
