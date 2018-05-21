@@ -80,7 +80,9 @@ namespace NetTestClient
         {
             if (uGrid.SelectedIndex >= 0)
             {
-                txtText.DataContext = dv[uGrid.SelectedIndex];
+                txtText.Text = dv[uGrid.SelectedIndex]["tNo"].ToString() + "." +
+                    dv[uGrid.SelectedIndex]["tTitle"].ToString() + "()\r\r\n\n" + 
+                    dv[uGrid.SelectedIndex]["tText"].ToString();
             }
             else
             {
