@@ -1,5 +1,5 @@
-# NetTest
-本项目是基于 ___WCF（Windows Communication Foundatiomn）___ 框架的试题练习程序   
+# NetTest 作者：王旭
+本项目是基于 ___WCF（Windows Communication Foundatiomn）___ 框架的试题练习程序  作者 
 功能：   
 * 添加试题
 * 删除试题
